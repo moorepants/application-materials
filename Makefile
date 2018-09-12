@@ -1,7 +1,7 @@
 TARGETS = cover-letter research-statement teaching-statement diversity-statement
 all: pdf html
 pdf:
-	rst2latex --use-latex-citations --use-bibtex=plain,references research-statement.rst research-statement.tex
+	rst2latex --hyperref-options="citecolor=blue" --use-latex-citations --use-bibtex=plain,references research-statement.rst research-statement.tex
 	for target in $(TARGETS) ; do \
 		pdflatex $$target ; \
 		pdflatex $$target ; \
