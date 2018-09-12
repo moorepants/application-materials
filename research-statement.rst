@@ -213,181 +213,61 @@ Profs. Hess, Hubbard, Hull in the MAE department.
 I intend to lead an effort to bring UC Davis's once noted biomechanics efforts
 back alive and to lead a new path in biomemetic robotics.
 
-References
-==========
-
-.. [SymPyDevelopmentTeam2006] SymPy Development Team, SymPy: Python library for
-   symbolic mathematics. 2006.
-.. [Moore2007] J. K. Moore, D. L. Peterson, and M. Hubbard, "Influence of rider
-   dynamics on the Whipple bicycle model," in Proceedings of the 11th
-   International Symposium on Computer Simulation in Biomechanics, Tainan,
-   Taiwan, 2007.
-.. [Moore2008] J. Moore and M. Hubbard, "Parametric Study of Bicycle
-   Stability," in The Engineering of Sport 7, 2008, vol. 2.
-.. [Moore2009a] J. K. Moore, J. D. G. Kooijman, and A. L. Schwab, "Rider motion
-   identification during normal bicycling by means of principal component
-   analysis," in Proceedings of Multibody Dynamics 2009, ECCOMAS Thematic
-   Conference, Warsaw, Poland, 2009.
-.. [Kooijman2009] J. D. G. Kooijman, A. L. Schwab, and J. K. Moore, "Some
-   Observations on Human Control of a Bicycle," in Proceedings of the ASME 2009
-   International Design and Engineering Technical Conferences & Computers and
-   Information in Engineering Conference, 2009.
-.. [Moore2009] J. K. Moore, J. D. G. Kooijman, M. Hubbard, and A. L. Schwab, "A
-   Method for Estimating Physical Properties of a Combined Bicycle and Rider,"
-   in Proceedings of the ASME 2009 International Design Engineering Technical
-   Conferences & Computers and Information in Engineering Conference, IDETC/CIE
-   2009, San Diego, CA, USA, 2009.
-.. [Moore2010] J. K. Moore, M. Hubbard, A. L. Schwab, J. D. G. Kooijman, and D.
-   L. Peterson, "Statistics of bicycle rider motion," in The Engineering of
-   Sport 8  - Engineering Emotion, 2010, vol. 2, pp. 2937–2942.
-.. [Peterson2010] D. L. Peterson, J. K. Moore, D. Fintelman, and M. Hubbard,
-   "Low-power, modular, wireless dynamic measurement of bicycle motion," in
-   Procedia Engineering, 2010, vol. 2, pp. 2949–2954.
-.. [Moore2010a] J. K. Moore, M. Hubbard, D. L. Peterson, A. L. Schwab, and J.
-   D. G. Kooijman, "An Accurate Method of Measuring and Comparing a Bicycle’s
-   Physical Parameters," in Proceedings of Bicycle and Motorcycle Dynamics:
-   Symposium on the Dynamics and Control of Single Track Vehicles, Delft,
-   Netherlands, 2010.
-.. [Moore2010b] J. K. Moore, P. D. L. de Lange, and Y. Henneberry, BicycleDAQ:
-   Data aquisition application for an instrumented bicycle. University of
-   California, Davis, 2010.
-.. [Hubbard2011] M. Hubbard, R. A. Hess, J. K. Moore, and D. L. Peterson,
-   "Human control of bicycle dynamics with experimental validation and
-   implications for bike handling and design," in Proceedings of 2011 NSF
-   Engineering Research and Innovation Conference, 2011.
-.. [Moore2011c] J. K. Moore, J. D. G. Kooijman, A. L. Schwab, and M. Hubbard,
-   "Rider motion identification during normal bicycling by means of principal
-   component analysis," Multibody Syst Dyn, vol. 25, no. 2, pp. 225–244, Feb.
-   2011.
-.. [Moore2011d] J. K. Moore, P. D. L. de Lange, and S. Yin,
-   BicycleDataProcessor: Data storage and processing library for an
-   instrumented bicycle. University of California, Davis, 2011.
-.. [Moore2011a] J. K. Moore, C. Dembia, and O. Lee, BicycleParameters: A Python
-   library for bicycle parameter estimation and analysis. 2011.
-.. [Moore2011e] J. K. Moore, HumanControl: Human control of a bicycle.
-   University of California, Davis, 2011.
-.. [Dembia2011] C. Dembia, J. K. Moore, S. Yin, and O. Lee, Yeadon: A Python
-   Library For Human Inertia Estimation. 2011.
-.. [Moore2011] J. K. Moore, C. Dembia, and O. Lee, DynamicistToolKit: A Python
-   library for dynamcis and controls. 2011.
-.. [Moore2011b] J. K. Moore et al., PyDy: A multi-body dynamics analysis
-   package written in Python. PyDy, 2011.
-.. [Hess2012] R. Hess, J. K. Moore, and M. Hubbard, "Modeling the Manually
-   Controlled Bicycle," IEEE Transactions on Systems, Man, and Cybernetics -
-   Part A: Systems and Humans, vol. 42, no. 3, pp. 545–557, Feb. 2012.
-.. [Schwab2012a] A. L. Schwab, P. D. L. de Lange, R. Happee, and J. K. Moore,
-   "Rider control identification in bicycling, parameter estimation of a linear
-   model using lateral force perturbation tests," in Proceedings of the
-   IMSD2012 - The 2nd Joint International Conference on Multibody System
-   Dynamics, Stuttgart, Germany., 2012.
-.. [Moore2012] J. K. Moore, "Human Control of a Bicycle," Doctor of Philosophy,
-   University of California, Davis, CA, 2012.
-.. [Schwab2012] A. Schwab, P. de Lange, and J. K. Moore, "Rider Optimal Control
-   Identification in Bicycling," in Proceedings of the 5th Annual Dynamic
-   Systems and Control Conference and 11th Annual Motion and Vibration
-   Conference, Fort Lauderdale, Florida, USA, 2012.
-.. [Gede2013] G. Gede, D. L. Peterson, A. S. Nanjangud, J. K. Moore, and M.
-   Hubbard, "Constrained Multibody Dynamics With Python: From Symbolic Equation
-   Generation to Publication," in Volume 7B: 9th International Conference on
-   Multibody Systems, Nonlinear Dynamics, and Control, Portland, Oregeon, USA,
-   2013.
-.. [Moore2013c] J. K. Moore and A. J. van den Bogert, "Direct Identification of
-   Human Gait Control," 18-Aug-2013.
-.. [Hess2013] R. A. Hess and J. K. Moore, "Estimating Parameters of the
-   Structural Pilot Model Using Simulation Tracking Data," in AIAA Guidance,
-   Navigation, and Control Conference, 2013.
-.. [Schwab2013] A. L. Schwab, P. D. L. de Lange, R. Happee, and J. K. Moore,
-   "Rider control identification in bicycling using lateral force perturbation
-   tests," Proceedings of the Institution of Mechanical Engineers, Part K:
-   Journal of Multi-body Dynamics, vol. 227, no. 4, pp. 390–406, Aug. 2013.
-.. [Moore2013a] J. K. Moore and M. Hubbard, "Identification of open loop
-   dynamics of a manually controlled bicycle-rider system," in Proceedings of
-   Bicycle and Motorcycle Dynamics: Symposium on the Dynamics and Control of
-   Single Track Vehicles, Narashino, Chiba, Japan, 2013.
-.. [Moore2013] J. K. Moore and M. Hubbard, "Methods for elimination of
-   crosstalk and inertial effects in bicycle and motorcycle steer torque
-   estimation," in Proceedings of Bicycle and Motorcycle Dynamics: Symposium on
-   the Dynamics and Control of Single Track Vehicles, Narashino, Chiba, Japan,
-   2013.
-.. [Moore2013b] J. K. Moore, S. K. Hnat, O. Nwanna, M. Overmeyer, and A. J. van
-   den Bogert, GaitAnalysisToolKit: A Python Library for Gait Analysis.
-   Cleveland State University, 2013.
-.. [Moore2014a] J. K. Moore, S. K. Hnat, and A. J. van den Bogert,
-   "Identification of human control during perturbed walking," in Midwest
-   American Society of Biomechanics Regional Meeting, Akron, Ohio, USA, 2014.
-.. [Moore2014c] J. K. Moore and M. Hubbard, "Methods for elimination of
-   crosstalk and inertial effects in bicycle steer torque estimation,"
-   20-Apr-2014.
-.. [Moore2014] J. K. Moore and A. J. van den Bogert, opty: A library for using
-   direct collocation in the optimization and identification of dynamic
-   systems.  Cleveland State University, 2014.
-.. [Moore2014f] J. K. Moore, S. K. Hnat, and A. J. van den Bogert,
-   "Identification of human control during perturbed walking," presented at the
-   Dynamic Walking, Zurich, Switzerland, 2014.
-.. [Moore2014e] J. K. Moore and A. J. van den Bogert, "Perturbed Standing
-   Controller Parameter Identification: A comparison of Methods," 24-Aug-2014.
-.. [Moore2014d] J. K. Moore and M. Hubbard, "Kinetic and Kinematic Measurements
-   from an Instrumented Bicycle during different maneuevers on and off the
-   treadmill," 24-Aug-2014.
-.. [Dembia2015] C. Dembia, J. K. Moore, and M. Hubbard, "An object oriented
-   implementation of the Yeadon human inertia model," F1000Research, vol. 3,
-   no.  233, Apr. 2015.
-.. [Moore2015b] J. K. Moore, S. K. Hnat, and A. J. van den Bogert, "An
-   elaborate data set on human gait and the effect of mechanical
-   perturbations," PeerJ, vol. 3, no. e918, Apr. 2015.
-.. [Moore2015a] J. K. Moore, S. K. Hnat, and A. J. van den Bogert, "An
-   elaborate data set on human gait and the effect of mechanical
-   perturbations," PeerJ PrePrints, vol. 3, no. e700v4, Apr. 2015.
-.. [Moore2015] J. K. Moore and A. J. van den Bogert, "Quiet Standing Control
-   Parameter Identification with Direct Collocation," in XV International
-   Symposium on Computer Simulation in Biomechanics, Edinburgh, UK, 2015.
-.. [Moore2016] J. Moore, M. Hubbard, and R. A. Hess, "An Optimal Handling
-   Bicycle," in Proceedings of the 2016 Bicycle and Motorcycle Dynamics
-   Conference, 2016.
-.. [Meuer2017] A. Meurer et al., "SymPy: symbolic computing in Python," PeerJ
-   Comput. Sci., vol. 3, no. e103, Jan. 2017.
-.. [Moore2017c] J. K. Moore, "Learning Mechanical Design Through Lightweight
-   Prototyping," UC Davis Engineering Education Learning Community, 10-Feb-2017. .
-.. [Moore2017b] J. K. Moore and K. Lyons, resonance: A Python package for
-   mechanical vibration analysis. University of California, Davis, 2017.
-.. [Kresie2017] S. W. Kresie, J. K. Moore, M. Hubbard, and R. A. Hess,
-   "Experimental Validation of Bicycle Handling Prediction," in Proceedings of
-   the 6th Annual International Cycling Safety Conference, Davis, CA, USA,
-   2017.
-.. [Moore2017] J. K. Moore, M. Hubbard, and R. A. Hess, "Optimal bicycle design
-   to maximize handling and safety," in Proceedings of the 6th Annual
-   International Cycling Safety Conference, Davis, CA, USA, 2017.
-.. [Moore2017a] J. K. Moore and K. Lyons, Resonance: Learning Mechanical
-   Vibration Enginering Through Computation. 2017.
-.. [Moore2018] J. K. Moore and A. van den Bogert, "opty: Software for
-   trajectory optimization and parameter identification using direct
-   collocation," Journal of Open Source Software, vol. 3, no. 21, p. 300, Jan.
-   2018.
-.. [Moore2018b] J. K. Moore and K. Lyons, "Using Computational Thinking to
-   Teach Mechanical Vibrations," UC Davis Engineering Education Learning
-   Community, 23-Apr-2018. .
-.. [Cloud2018] B. Cloud et al., "Adaptive sensor fusion for estimating
-   competitive rowing kinematic metrics using smartphone-based sensing," Jun-2018.
-.. [Moore2018a] J. K. Moore and M. Hubbard, "skijumpdesign: A Ski Jump Design
-   Tool for Specified Equivalent Fall Height," The Journal of Open Source
-   Software, vol. 3, no. 28, p. 818, Aug. 2018.
-.. [Ackermann2010] M. Ackermann and A. J. van den Bogert, "Optimality
-   principles for model-based prediction of human gait," Journal of
-   Biomechanics, vol. 43, no. 6, pp. 1055–1060, Apr. 2010.
-.. [vandenBogert2011] A. J. van den Bogert, D. Blana, and D. Heinrich,
-   "Implicit methods for efficient musculoskeletal simulation and optimal
-   control," Procedia IUTAM, vol. 2, pp. 297–316, 2011.
-.. [Wang2012] J. M. Wang, S. R. Hamner, S. L. Delp, and V. Koltun, "Optimizing
-   locomotion controllers using biologically-based actuators and objectives,"
-   ACM Transactions on Graphics (TOG), vol. 31, no. 4, p. 25, 2012.
-.. [Geijtenbeek2013] T. Geijtenbeek, "Animating Virtual Characters using
-   Physics-Based Simulation," 2013.
-.. [Mordatch2013] I. Mordatch, J. M. Wang, E. Todorov, and V. Koltun, "Animating
-   human lower limbs using contact-invariant optimization," ACM Transactions on
-   Graphics, vol. 32, no. 6, pp. 1–8, Nov. 2013.
-.. [Heess2017] N. Heess et al., "Emergence of Locomotion Behaviours in Rich
-   Environments," arXiv:1707.02286 [cs], Jul. 2017.
-.. [OpenAI2018] OpenAI et al., "Learning Dexterous In-Hand Manipulation,"
-   arXiv:1808.00177 [cs, stat], Aug. 2018.
-.. [Kudinski2017] "Reinforcement learning with musculoskeletal models."
-   [Online]. Available: http://osim-rl.stanford.edu/. [Accessed: 12-Sep-2018].
+.. [SymPyDevelopmentTeam2006]
+.. [Moore2007]
+.. [Moore2008]
+.. [Kooijman2009]
+.. [Moore2009]
+.. [Moore2009a]
+.. [Ackermann2010]
+.. [Moore2010]
+.. [Moore2010a]
+.. [Moore2010b]
+.. [Peterson2010]
+.. [vandenBogert2011]
+.. [Dembia2011]
+.. [Hubbard2011]
+.. [Moore2011]
+.. [Moore2011a]
+.. [Moore2011b]
+.. [Moore2011c]
+.. [Moore2011d]
+.. [Moore2011e]
+.. [Hess2012]
+.. [Schwab2012]
+.. [Schwab2012a]
+.. [Moore2012]
+.. [Wang2012]
+.. [Gede2013]
+.. [Geijtenbeek2013]
+.. [Hess2013]
+.. [Schwab2013]
+.. [Moore2013]
+.. [Moore2013a]
+.. [Moore2013b]
+.. [Moore2013c]
+.. [Mordatch2013]
+.. [Moore2014a]
+.. [Moore2014c]
+.. [Moore2014]
+.. [Moore2015a]
+.. [Moore2015b]
+.. [Moore2014d]
+.. [Moore2014e]
+.. [Moore2014f]
+.. [Dembia2015]
+.. [Moore2015]
+.. [Moore2016]
+.. [Heess2017]
+.. [Meuer2017]
+.. [Kresie2017]
+.. [Kudinski2017]
+.. [Moore2017]
+.. [Moore2017a]
+.. [Moore2017b]
+.. [Moore2017c]
+.. [Cloud2018]
+.. [Moore2018]
+.. [Moore2018a]
+.. [Moore2018b]
+.. [OpenAI2018]
