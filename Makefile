@@ -1,11 +1,14 @@
 TARGETS = cover-letter research-statement teaching-statement diversity-statement
 all: pdf html
 pdf:
-	rst2latex --use-latex-citations research-statement.rst research-statement.tex
+	rst2latex --use-latex-citations --use-bibtex=plain,references research-statement.rst research-statement.tex
 	for target in $(TARGETS) ; do \
 		pdflatex $$target ; \
 		pdflatex $$target ; \
 	done
+	bibtex research-statement
+	pdflatex research-statement
+	pdflatex research-statement
 html:
 	rst2html research-statement.rst research-statement.html
 clean:
