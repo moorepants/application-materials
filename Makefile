@@ -17,7 +17,7 @@ pdf:
 html:
 	rst2html research-statement.rst research-statement.html
 clean:
-	rm -rf *.ps *.log *.dvi *.aux *.*% *.lof *.lop *.lot *.toc *.idx *.ilg *.ind *.bbl *.blg *.cpt
+	rm -rf *.ps *.log *.dvi *.aux *.*% *.lof *.lop *.lot *.toc *.idx *.ilg *.ind *.bbl *.blg *.cpt *.out
 	for target in $(TARGETS) ; do \
 		rm -f $$target.pdf ; \
 	done
