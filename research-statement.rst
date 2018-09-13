@@ -139,7 +139,8 @@ in horse trotting in the field that I would like to develop for human walking.
 I also mentor a group that developed a robot to tie a shoe; one of the more
 complex tasks our human hands perform. Lastly, I have developed a desktop
 balancing robot that will be used to validate the indirect identification
-methods I developed during my postdoctoral work.
+methods I developed during my postdoctoral work. My current projects can be
+viewed on my lab website: http://mechmotum.github.io.
 
 All of my research relies heavily on open source computational data analysis
 and simulation tools, much of which I have developed and published. Most
@@ -173,16 +174,63 @@ My Future Research Plans
      dynamic walking, american society of biomechanics, isb, isb simulation
      tech group, scipy, jupytercon, pydata
    collaboration
-     internal at ucd: xinfan, kong, stravos, hess, hubbard, hull, robinson, joshi
-     companies: TRI, Ekso Bionics, kindred.ai
+     internal at ucd: xinfan, kong, stravos, hess, hubbard, hull, robinson, joshi, dsi
+     companies: TRI, Ekso Bionics, kindred.ai, guy in sac, med center
      academics: cleveland state, stanford
 
-At UC Davis I plan to develop a team and laboratory which is capable of
-collecting data from human motion in a variety of mobility related activities,
-utilizing the cutting edge learning, estimation, and identification methods
-to characterize human control in these activities, and building and testing
-robots and devices and contribute to and develop the next generation of open
-source software. The group will house and develop computatinol and experimental
+As a professor of prosthetics and assistive robotics I will play an integral
+role in UC Davis's future neuroengineering vision. I plan to lead a laboratory
+that will provide computational and experimental biomechanics expertise
+alongside humanoid robot and assistive device design. This will complement the
+existing and upcoming efforts that focus more on the neural pieces of the
+neuroengineering puzzle. Hiring me will also also revive the MAE department's
+past notability in biomechanics with a modernized biomechatronics take. I also
+want to help catalyze making the Sacramento region a leader in bio-robotics.
+The combination of UC Davis Engineering, UC Davis Med Center, Sacramento State
+Engineering, closeness to the Bay Area, and local companies such as Intel and
+Siemens paired with the burgeoning startup scene and a mechanical engineering
+hole left by Aerojet-Rocketdyne and the Chancellor's plans for the Aggie Square
+growth, opportunity and potential is high.
+
+With over a decade of time in the region, I have a wide network of partners to
+bring this vision to life that span the UC Davis faculty and centers, UC Davis
+Med Center, local orthotics companies, Bay Area robotics companies and, etc.
+along with a national and international collaborators.
+
+Bay Area companies (Toyota Research Institute, Ekso Bionics, Biorad, Inscitech,
+Open Robotics)
+
+We will further develop collaborations through several communities that I am
+involved in are , such as the Dynamic Walking conference (top walking robot and
+biomechanics series), both the American and International Societies of
+Biomechanics (in particular the ISB techinical simulation group), SciPy,
+PyData, PyCon, ROSCon.
+
+I will continue to develop
+relationships with regional compaines, such at Toyota Research Institute, Ekso
+Bionics, Open Source Robotics and partnet academics Stanford Neruomusclar
+Biomehcanics lab,
+
+Cleveland State Human Motion and control, TU Delft
+Biomechanics.
+
+Profs. Lin, Kong, Robinson, Joshi, Moxon, emeritus Profs. Hess, Hubbard,
+Hull in the MAE department.
+
+
+My lab will develop these specific capabilities:
+
+- ability to collect motion data from humans and robots in
+  mobility related activities
+- utilizing the cutting edge learning, estimation, and identification methods
+to characterize human control in these activities.
+- build and test robots and devices and
+- contribute to and develop the next generation of open source software.
+
+We will pull graduate students from engineering disiplinces (primarily MAE, EE,
+BME, ECS)
+
+The group will house and develop computational and experimental
 biomechanicists and roboticists.
 
 Our beginning initiatives will be:
@@ -198,17 +246,6 @@ Our beginning initiatives will be:
 
 These all build on my prior work described above.
 
-The lab will be involved in several communities that are leading, such as the
-Dynamic Walking conference, both the American and International Societies of
-Biomechanics, in particular the ISB techinical simulation group, SciPy, PyData,
-PyCon. I will continue to develop relationships with regional compaines, such
-at Toyota Research Institute, Ekso Bionics, Open Source Robotics and partnet
-academics Stanford Neruomusclar Biomehcanics lab, Cleveland State Human Motion
-and control, TU Delft Biomechanics. Profs. Lin, Kong, Robinson, Joshi, emeritus
-Profs. Hess, Hubbard, Hull in the MAE department.
-
-I intend to lead an effort to bring UC Davis's once noted biomechanics efforts
-back alive and to lead a new path in biomemetic robotics.
 
 .. [SymPyDevelopmentTeam2006]
 .. [Meijaard2007]
