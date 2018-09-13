@@ -30,8 +30,8 @@ three primary focuses:
 3. Developing next generation open and collaborative computational tools to
    back efforts in the first two items.
 
-Current State of Human Lower Body Control
-=========================================
+Current State of Human Motion & Control
+=======================================
 
 Deep reinforcement learning has had growing success in creating joint torque
 driven closed loop control simulating low-fidelity humanoid models in complex
@@ -66,10 +66,10 @@ and the successes in hardware with demonstrations such as [OpenAI2018]_ but
 much is a bright future for discovery with lower limb systems.
 
 ..
-   TODO : Add Collin's clutch ankle paper.
+   TODO : Add Collin's clutch ankle paper. Add bicycle bmx paper.
 
-My Past work
-============
+My Past Work in Human Motion & Control
+======================================
 
 Much of my prior research has focused on the problem of control identification
 in human balance where I have attempted to answer this question:
@@ -150,8 +150,8 @@ related software packages [Moore2010b]_ [Moore2011d]_ [Moore2011a]_
 published a package for general purpose trajectory optimization and parameter
 estimation [Moore2018]_.
 
-My Future Research Plans
-========================
+My Plans in Human Motion & Control at UC Davis
+==============================================
 
 As a professor of prosthetics and assistive robotics I will play an integral
 role in UC Davis's future neuroengineering vision. I plan to lead a laboratory
