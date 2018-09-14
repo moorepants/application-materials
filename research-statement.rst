@@ -4,23 +4,25 @@ Research Introduction
 My research efforts center around understanding and improving human mobility by
 developing biomemetic controllers for powered assistive devices and humanoid
 robots and developing control augmentation for small manually controlled
-vehicles. The ability humans have to ambulate an manipulate devices is still
-very much the envy of engineers who desire to artificially mimic their motion.
-Mammalian sensing and actuation capabilities are robust in ways that our robots
-and machines can still only emulate in a limited fashion. Understanding and
-grossly mimicking the intricacies of the mammalian neuromuscular system have
-the potential to allow us to improve human life through assistive machine and
-device design. The fundamental question I am working on is:
+vehicles. The ability humans have to ambulate and manipulate devices continues
+to be the envy of engineers who desire to artificially mimic their motion.
+Contemporary robots and machines are still limied in their ability to emulate
+the robust capabilities of mamalian sensing and acutation. Understanding and
+mimicking the intricacies of the mammalian neuromuscular system have the
+potential to allow us to improve human life through assistive machine and
+device design.
+
+The fundamental question I am working on is:
 
    Can dynamically human-similar machines and their controllers be designed to
    move as a human would provided neurally-limited driving control inputs?
 
 I am interested in identifying practical controllers for devices, robots, and
 vehicles which encode feed-forward and feedback control such that the combined
-human/machine system has identical motion to an able bodied human. In
-particular I am focusing on improving balancing while standing and walking with
-lower limb prostheses and exoskeletons. To do this my research currently has
-three primary focuses:
+human/machine system has identical motion to an able-bodied human. My main
+focus is on improving balancing while standing and walking with lower limb
+prostheses and exoskeletons. To do this my research currently has three primary
+foci:
 
 1. Identifying how humans balance and locomote through data intensive
    computational estimation, learning, and identification.
