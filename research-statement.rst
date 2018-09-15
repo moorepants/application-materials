@@ -59,18 +59,18 @@ simulations that incorporate modeled prostheses have just emerging (e.g.
 Powered assistive devices such as powered below- and above-knee prostheses have
 improved drastically in the last decade and have been shown to reduce the
 metabolic cost of walking in amputees [Au2009]_, with some now moving to
-commericial products (e.g. Rheo Knee). Unpowered [Collins2015]_ and powered
+commercial products (e.g. Rheo Knee). Unpowered [Collins2015]_ and powered
 [Zhang2017]_ exoskeletons can also do the same for able bodied walkers
 [Collins2015]_. Powered lower limb exoskeleton for paraplegics are just now
 being approved by the FDA for the US and European markets (e.g. Rewalk, Indego,
 Esko). These devices rely primary on non-neural control, offer no balance
 during gait, and move with a very unnatural gait. Future research will improve
-all three of these aspects to bring natural self-balanced  walking back to the
+all three of these aspects to bring natural self-balanced walking back to the
 paralyzed.
 
 In the past year, we have started to see merger of the successes in software
-and the successes in hardware with demonstrations such as [OpenAI2018]_ but
-much is a bright future for discovery with lower limb systems.
+and the successes in hardware with demonstrations such as in [OpenAI2018]_
+alluding to a bright future for discovery with lower limb systems.
 
 ..
    TODO : Ferris/Sawicki for powered ankle
@@ -104,32 +104,31 @@ collected copious amounts of data during responses to lateral perturbations in
 path tracking tasks. Using a manual control based theoretic controller
 [Hess2012]_ and data driven parameter estimation, I identified a set of
 controllers that explained the dominant rider perturbation linear response
-behavior [Moore2012]_, which was used to characterize a general controller that
-was able to mimic human behavior for a broader set of control tasks. This was
+behavior [Moore2012]_, which was then used to characterize a general controller
+able to mimic human behavior for a broader set of control tasks. This was
 expanded further with other theoretic controller structures for bicycling
 [Schwab2012a]_ [Schwab2012]_ [Schwab2013]_ and also applied to aircraft control
 identification [Hess2013]_.
 
-The work on bicycle control identification lead into postdoctoral work
-focused on developing controllers for lower extremity exoskeletons designed to
-assist paraplegic individuals in walking. We partnered with Parker Hannifin
-Corp. and targeted their Indego Exoskeleton. My goal was to provide
-natural gait and unassisted balance for these devices, something that is still
-lacking today. Utilizing an actuated treadmill coupled
-with full body kinematic tracking, I collected large quantities of walking data
-from both normal walking and longitudinally perturbed walking. I published the
-data as one of the first data papers in the field [Moore2015b]_ and
-demonstrated the effectiveness of the treadmill belt perturbation method. I
-used this data with a direct gait cycle gain scheduled feedback identification
-technique to identify possible closed loop controllers [Moore2013c]_
-[Moore2014a]_ [Moore2014c]_. This work led to the development of an indirect
-identification technique based on parameter estimation with direct collocation
-to enable simulated validation of the controllers. Direct collocation gave us
-the computational speed to discretely simulate hours of data. Starting with a
-simpler problem, I developed methods with data derived from human perturbed
-standing data. The techniques led to orders of magnitude of improvement in
-computation speed and control identification strictly from kinematic data
-[Moore2014e]_ [Moore2015]_.
+The work on bicycle control identification lead into postdoctoral work focused
+on developing controllers for lower extremity exoskeletons designed to assist
+paraplegic individuals in walking. We partnered with Parker Hannifin Corp. and
+targeted their Indego Exoskeleton. My goal was to provide natural gait and
+unassisted balance for these devices, something that is still lacking today.
+Utilizing an actuated treadmill coupled with full body kinematic tracking, I
+collected large quantities of walking data from both normal walking and
+longitudinally perturbed walking. I published the data as one of the first data
+papers in the field [Moore2015b]_ and demonstrated the effectiveness of the
+treadmill belt perturbation method. I used this data with a direct gait cycle
+gain scheduled feedback identification technique to identify possible closed
+loop controllers [Moore2013c]_ [Moore2014a]_ [Moore2014c]_. This work led to
+the development of an indirect identification technique based on parameter
+estimation with direct collocation to enable simulated validation of the
+controllers. Direct collocation gave us the computational speed to discretely
+simulate hours of data. Starting with a simpler problem, I developed methods
+with data derived from human perturbed standing data. The techniques led to
+orders of magnitude of improvement in computation speed and control
+identification strictly from kinematic data [Moore2014e]_ [Moore2015]_.
 
 Since moving into a teaching faculty position at UC Davis I have mentored and
 led a number of sensing, instrumentation, and robotics projects that build on
@@ -137,7 +136,7 @@ the prior research with various local companies and undergraduate students. We
 have developed an adaptive mouth-based control for an electric tricycle which
 is ALS and quadriplegic friendly with Outrider USA and Disability Reports. This
 past year my students developed a powered cable driven hand prostheses for
-partial upper body paralysis with Ekso Bionics. With SRE Engineering we have
+partial upper body paralysis with Ekso Bionics. With SRE Engineering we
 developed a wireless boot for measuring ground reaction forces for horse
 trotting in non-laboratory settings that I would like to apply to human
 walking. I also mentored a group of students that developed a robot to tie a
@@ -158,7 +157,7 @@ packages [Moore2010b]_ [Moore2011d]_ [Moore2011a]_ [Moore2011e]_ and
 dynamics/biomechanics packages [Dembia2011]_ [Moore2011]_ [Moore2011b]_
 [Moore2013b]_ [Moore2017b]_ [Moore2018a]_. Recently I have published a package
 for general purpose trajectory optimization and parameter estimation
-[Moore2018]_ and ski jump design [Moore2018a]_.
+[Moore2018]_ and also for ski jump design [Moore2018a]_.
 
 My Research Plans at UC Davis
 =============================
@@ -213,12 +212,12 @@ methods to characterize human control, 3) build and test controllers in
 humanoid robots and assistive devices, and 4) contribute to and develop the
 next generation of open source biomechatronic related software.
 
-My initial project plans are multifold and  will build from my prior work. I
+My initial project plans are multifold and will build from my prior work. I
 will start recruiting students for 1) applying parameter identification using
 direct collocation to perturbed walking data to discover a gain scheduled
-closed loop control, 2) development of a desktop balancing robot that simulates
+closed loop control, 2) development of a scaled balancing robot that simulates
 perturbed human balancing, 3) accelerating lower body neuromuscular forward
-dynamics simulations through implicit dynamics and  optimized code generation
+dynamics simulations through implicit dynamics and optimized code generation
 and common sub-expression evaluation across CPU/GPU cores, and 4) development
 of a low-fidelity lower limb exoskeleton for controller testing.
 
