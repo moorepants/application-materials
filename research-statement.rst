@@ -33,8 +33,8 @@ primary foci:
 3. Developing next generation open and collaborative computational tools to
    back efforts in the first two items.
 
-Current State of Human Locomotion & Control
-===========================================
+Current State of Human Locomotion Simulation & Assistive Control
+================================================================
 
 Deep reinforcement learning has had growing success in creating joint torque
 driven closed loop controlled simulation of low-fidelity humanoid models in
@@ -57,23 +57,27 @@ simulations that incorporate modeled prostheses have just emerging (e.g.
 [Koelewijn2016]_) which is an exciting new path in the field.
 
 Powered assistive devices such as powered below- and above-knee prostheses have
-had interesting recent developments. Powered and passive Lower limb exoskeleton
-for paraplegics are just now being approved by the FDA for the US and European
-markets, e.g.Rewalk, Indego, Esko. These devices rely primary on non-neural
-control, offer no balance during gait, and very robotic gait.
+improved drastically in the last decade and have been shown to reduce the
+metabolic cost of walking in amputees [Au2009]_, with some now moving to
+commericial products (e.g. Rheo Knee). Unpowered [Collins2015]_ and powered
+[Zhang2017]_ exoskeletons can also do the same for able bodied walkers
+[Collins2015]_. Powered lower limb exoskeleton for paraplegics are just now
+being approved by the FDA for the US and European markets (e.g. Rewalk, Indego,
+Esko). These devices rely primary on non-neural control, offer no balance
+during gait, and move with a very unnatural gait. Future research will improve
+all three of these aspects to bring natural self-balanced  walking back to the
+paralyzed.
 
 In the past year, we have started to see merger of the successes in software
 and the successes in hardware with demonstrations such as [OpenAI2018]_ but
 much is a bright future for discovery with lower limb systems.
 
 ..
-   TODO : Add Collin's clutch ankle paper. Add bicycle bmx paper.
    TODO : Ferris/Sawicki for powered ankle
    TODO : Take some refs from https://pdfs.semanticscholar.org/f147/212a95e4dc0ff1ca9a6b76e0b32c916b8f0b.pdf
-   TODO : Add bicycle balancing paper
 
-My Past Work in Human Motion & Control
-======================================
+My Past Work in Human Motion and Control
+========================================
 
 Much of my prior research has focused on the problem of control identification
 in human balance where I have attempted to answer this question:
@@ -241,6 +245,7 @@ California, Davis.
 .. [Meijaard2007]
 .. [Moore2007]
 .. [Moore2008]
+.. [Au2009]
 .. [Kooijman2009]
 .. [Moore2009]
 .. [Moore2009a]
@@ -280,6 +285,7 @@ California, Davis.
 .. [Moore2014e]
 .. [Moore2014f]
 .. [Tan2014]
+.. [Collins2015]
 .. [Dembia2015]
 .. [Moore2015]
 .. [Moore2015a]
@@ -295,6 +301,7 @@ California, Davis.
 .. [Moore2017a]
 .. [Moore2017b]
 .. [Moore2017c]
+.. [Zhang2017]
 .. [Cloud2018]
 .. [Moore2018]
 .. [Moore2018a]
