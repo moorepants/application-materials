@@ -223,7 +223,7 @@ and common sub-expression evaluation across CPU/GPU cores, and 4) development
 of a low-fidelity lower limb exoskeleton for controller testing.
 
 I will use the results from these initial projects to develop grant proposals
-for the National Science Foundation's CMMI, IIS, CBET, and CNS divisions[1]_
+for the National Science Foundation's CMMI, IIS, CBET, and CNS divisions [1]_
 and the NIH's rehabilitation and data focused initiatives which all have a
 history of and currently support similar research. Additionally, I will pursue
 funding with private foundations such as the Gordon and Betty Moore Foundation
