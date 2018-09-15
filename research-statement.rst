@@ -237,6 +237,7 @@ California, Davis.
    Environmental, and Transport Systems, and Division of Computer and Network
    Systems, respectively.
 
+.. [Astrom2005]
 .. [SymPyDevelopmentTeam2006]
 .. [Meijaard2007]
 .. [Moore2007]
@@ -282,6 +283,7 @@ California, Davis.
 .. [Dembia2015]
 .. [Moore2015]
 .. [Moore2015a]
+.. [Koelewijn2016]
 .. [Moore2016]
 .. [Heess2017]
 .. [Meurer2017]
@@ -296,5 +298,3 @@ California, Davis.
 .. [Moore2018a]
 .. [Moore2018b]
 .. [OpenAI2018]
-.. [Koelewijn2016]
-.. [Astrom2005]
