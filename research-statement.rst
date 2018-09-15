@@ -71,6 +71,7 @@ much is a bright future for discovery with lower limb systems.
    TODO : Add Dembia's paper and Uchida: CMC
    TODO : Add Collin's clutch ankle paper. Add bicycle bmx paper.
    TODO : Ferris/Sawicki for powered ankle
+   TODO : Take some refs from https://pdfs.semanticscholar.org/f147/212a95e4dc0ff1ca9a6b76e0b32c916b8f0b.pdf
 
 My Past Work in Human Motion & Control
 ======================================
