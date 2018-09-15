@@ -6,13 +6,13 @@ developing biomemetic controllers for powered assistive devices and humanoid
 robots and on developing control augmentation for small manually controlled
 vehicles. The ability humans have to ambulate and manipulate devices continues
 to be the envy of engineers who desire to artificially mimic their motion.
-Contemporary robots and machines are still limited in their ability to emulate
-the robust capabilities of mammalian sensing and actuation. Understanding and
-mimicking the intricacies of the mammalian neuromuscular system have the
-potential to allow us to improve human life through assistive machine and
-device design.
+Understanding and mimicking the intricacies of the mammalian neuromuscular
+system have the potential to allow us to improve human life through assistive
+machine and device design. However, contemporary robots and machines are still
+limited in their ability to emulate the robust capabilities of mammalian
+sensing and actuation.
 
-The fundamental question I am working on is:
+The fundamental question that I am interested in is:
 
    Can dynamically human-similar machines and their controllers be designed to
    move as a human would move, if provided neurally-limited driving control
@@ -220,17 +220,22 @@ and common sub-expression evaluation across CPU/GPU cores, and 4) development
 of a low-fidelity lower limb exoskeleton for controller testing.
 
 I will use the results from these initial projects to develop grant proposals
-for the National Science Foundation's CMMI, IIS, CBET, and CNS divisions and
-the NIH's rehabilitation and data focused areas which all have a history of and
-currently support similar research. Additionally, I will pursue funding with
-private foundations such as the Gordon and Betty Moore Foundation and the
-Alfred P. Sloan Foundation for open source computational and data innovation
-support and partner with prior mentioned companies for small commercially
-relevant project support.
+for the National Science Foundation's CMMI, IIS, CBET, and CNS divisions[1]_
+and the NIH's rehabilitation and data focused initiatives which all have a
+history of and currently support similar research. Additionally, I will pursue
+funding with private foundations such as the Gordon and Betty Moore Foundation
+and the Alfred P. Sloan Foundation for open source computational and data
+innovation support and partner with prior mentioned companies for small
+commercially relevant project support.
 
 Given the opportunity, I have the skills, network, and vision to succeed as a
 professor of prosthetics and assistive robotics at the University of
 California, Davis.
+
+.. [1] Division of Civil, Mechanical and Manufacturing Innovation, Division of
+   Information & Intelligent Systems, Division of Chemical, Bioengineering,
+   Environmental, and Transport Systems, and Division of Computer and Network
+   Systems, respectively.
 
 .. [SymPyDevelopmentTeam2006]
 .. [Meijaard2007]
