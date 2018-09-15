@@ -110,12 +110,12 @@ expanded further with other theoretic controller structures for bicycling
 [Schwab2012a]_ [Schwab2012]_ [Schwab2013]_ and also applied to aircraft control
 identification [Hess2013]_.
 
-The work on bicycle balance control identification lead into postdoctoral work
+The work on bicycle control identification lead into postdoctoral work
 focused on developing controllers for lower extremity exoskeletons designed to
 assist paraplegic individuals in walking. We partnered with Parker Hannifin
-Corporation and targeted their Indego Exoskeleton. My goal was to provide
+Corp. and targeted their Indego Exoskeleton. My goal was to provide
 natural gait and unassisted balance for these devices, something that is still
-lacking to this day. Utilizing an actuated dual-force plate treadmill coupled
+lacking today. Utilizing an actuated treadmill coupled
 with full body kinematic tracking, I collected large quantities of walking data
 from both normal walking and longitudinally perturbed walking. I published the
 data as one of the first data papers in the field [Moore2015b]_ and
