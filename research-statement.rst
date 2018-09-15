@@ -1,5 +1,5 @@
-Research Introduction
-=====================
+Introduction
+============
 
 My research efforts center on understanding and improving human mobility by
 developing biomemetic controllers for powered assistive devices and humanoid
@@ -70,6 +70,7 @@ much is a bright future for discovery with lower limb systems.
 ..
    TODO : Add Dembia's paper and Uchida: CMC
    TODO : Add Collin's clutch ankle paper. Add bicycle bmx paper.
+   TODO : Ferris/Sawicki for powered ankle
 
 My Past Work in Human Motion & Control
 ======================================
@@ -155,78 +156,80 @@ dynamics/biomechanics packages [Dembia2011]_ [Moore2011]_ [Moore2011b]_
 for general purpose trajectory optimization and parameter estimation
 [Moore2018]_ and ski jump design [Moore2018a]_.
 
-My Plans in Human Motion & Control at UC Davis
-==============================================
+My Research Plans at UC Davis
+=============================
 
 As a professor of prosthetics and assistive robotics I will play an integral
-role in UC Davis's future neuroengineering vision. I plan to lead a laboratory
-that will provide computational and experimental biomechanics expertise
-alongside humanoid robot and assistive device design. This will complement the
-existing and upcoming efforts that focus on the neural pieces of the
-neuroengineering puzzle. Hiring me will also also revive the MAE department's
-past notability in biomechanics with a modernized biomechatronics take. I also
-want to help catalyze making the Sacramento region a leader in bio-robotics.
-The combination of UC Davis Engineering, UC Davis Med Center, CSUS Engineering,
-closeness to the Bay Area, and local companies such as Intel and Siemens paired
-with the burgeoning startup scene and the Chancellor's plans for Sacramento to
-become a tech center like Atlanta the potential and opportunity is high.
+role in UC Davis's vision for growth in neuroengineering. I plan to lead a
+laboratory that will provide computational and experimental biomechanics
+expertise alongside humanoid robot and assistive device design. This will
+complement the existing and upcoming efforts that focus on the neural aspects
+of an interdisciplinary neuroengineering core. I hope to revive the MAE
+department's past notability in biomechanics with a modernized biomechatronics
+focus. I also want to help catalyze making the Sacramento region a leader in
+bio-robotics. The combination of UC Davis Engineering, UC Davis Med Center,
+CSUS Engineering, our proximity to the Bay Area, and local companies such as
+Intel and Siemens paired with the burgeoning local startup scene can tie in
+with the Chancellor's plans for Sacramento and Davis to become a new hub for
+technical innovation.
 
 With more than a decade in the region, I have a wide network of partners to
 bring this vision to life that span the UC Davis faculty and centers, UC Davis
 Med Center, UC Davis Vet Med Center, local orthotics companies, and Bay Area
-biomechanic and robotics companies. This network also spans beyond the region
-to the state, national, and international collaborations. I plan to expand my
+biomechanic and robotics companies. My network also spans beyond the region to
+the state, national, and international collaborations. I plan to grow my
 collaborations with regional companies and labs (e.g. Toyota Research
 Institute, Motion Analysis, Ekso Bionics, Inscitech, Open Robotics, Stanford's
 Neuromuscular Biomechanics Lab) along with my expanded collaborators (e.g.
 Cleveland State's Human Motion and Control Laboratory, Cornell's Biorobotics
-Lab, TU Delft's Biomechanics Department, and Meijo University's robotics labs).
+Lab, TU Delft's Biomechanics Department, and Meijo University).
 
-I will further grow my presence through several communities that I am involved
-in. The lab will target conferences such as the Dynamic Walking and ROSCon
-along with the American and International Societies of Biomechanics
-(particularly the ISB Technical Simulation group). On the software side, we
-will continue to present at SciPy, PyData, and PyCon for computational
-advances.
+I will continue to participate in a number of academic communities that I am
+currently involved with. The lab will target conferences such as Dynamic
+Walking and ROSCon along with the American and International Societies of
+Biomechanics (including the ISB Technical Simulation group). On the software
+side, we will continue to present at SciPy, PyData, and PyCon for open source
+computation.
 
 In the MAE department, I am interested in developing and growing collaborations
 with Zhaodan Kong for high level robot planning and machine learning, Xinfan
-Lin for estimation needs in human motion, Karen Moxen for neural sensing,
-Sanjay Joshi for electromyography and control, and Stephen Robinson's human
-integration. I have relationships with emeritus Profs. Hess, Hubbard, Hull,
-Eke, Margolis, and Karnopp dynamics, biomechanics, which will play a role. I am
-a faculty affiliate at the new Data Science Initiative and plan leverage that
-relationship to grow our data based computational work.
+Lin for estimation needs in human motion, Karen Moxon for neural sensing and
+control, Sanjay Joshi for electromyography and control, and Stephen Robinson's
+human/robotics integration. I have relationships with emeritus Profs. Hess,
+Hubbard, Hull, Eke, Margolis, and Karnopp for dynamics, biomechanics, and
+control. I am a faculty affiliate at the new Data Science Initiative and plan
+leverage that relationship to grow our data centric computational work. I also
+look forward to developing more cross disciplinary research partners, many which
+have begun with the 70+ capstone design projects I have mentored.
 
-..
-   TODO : Mention other departments. Titus, vet med dog guy
+The lab I am planning will be able to 1) collect motion data from humans and
+robots in mobility related activities both in the lab and in natural
+environments, 2) apply cutting edge learning, estimation, and identification
+methods to characterize human control, 3) build and test controllers in
+humanoid robots and assistive devices, and 4) contribute to and develop the
+next generation of open source biomechatronic related software.
 
-My lab will develop these specific capabilities:
+My initial project plans are multifold and  will build from my prior work. I
+will start recruiting students for 1) applying parameter identification using
+direct collocation to perturbed walking data to discover a gain scheduled
+closed loop control, 2) development of a desktop balancing robot that simulates
+perturbed human balancing, 3) accelerating lower body neuromuscular forward
+dynamics simulations through implicit dynamics and  optimized code generation
+and common sub-expression evaluation across CPU/GPU cores, and 4) development
+of a low-fidelity lower limb exoskeleton for controller testing.
 
-- ability to collect motion data from humans and robots in mobility related
-  activities both in the lab and in natural environments
-- utilizing the cutting edge learning, estimation, and identification methods
-  to characterize human control
-- build and test controllers in humanoid robots and assistive devices
-- contribute to and develop the next generation of open source biomechatronic
-  software
+I will use the results from these initial projects to develop grant proposals
+for the National Science Foundation's CMMI, IIS, CBET, and CNS divisions and
+the NIH's rehabilitation and data focused areas which all have a history of and
+currently support similar research. Additionally, I will pursue funding with
+private foundations such as the Gordon and Betty Moore Foundation and the
+Alfred P. Sloan Foundation for open source computational and data innovation
+support and partner with prior mentioned companies for small commercially
+relevant project support.
 
-The specific initial projects that build on my prior work will be:
-
-- applying parameter identification using direct collocation to perturbed
-  walking data to discover a gain scheduled closed loop control
-- development of a desktop balancing robot that simulates perturbed human
-  balancing
-- accelerating lower body neuromuscular forward dynamics simulations through
-  implicit dynamics and  optimized code generation and common sub-expression
-  evaluation across CPU/GPU cores
-- development of a low-fidelity lower limb exoskeleton for controller testing
-
-The results from this work will prime the development of grant proposals to
-national funders such as NSF's ... and NIH's Big Data, Data Commons, and
-?biorobotics?. I will pursue funding with private foundations Moore, Sloan for
-innovative computational work and to specific region companies for biorobotics
-needs.
+Given the opportunity, I have the skills, network, and vision to succeed as a
+professor of prosthetics and assistive robotics at the University of
+California, Davis.
 
 .. [SymPyDevelopmentTeam2006]
 .. [Meijaard2007]
