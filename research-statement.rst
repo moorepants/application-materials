@@ -33,45 +33,44 @@ primary foci:
 3. Developing next generation open and collaborative computational tools to
    back efforts in the first two items.
 
-Current State of Walking Human Motion & Control
-===============================================
+Current State of Human Locomotion & Control
+===========================================
 
 Deep reinforcement learning has had growing success in creating joint torque
-driven closed loop control simulating low-fidelity humanoid models in complex
-virtual environments (e.g. [Heess2017]_). Parallel to the reinforcement
-learning are efforts to generate closed and open loop controllers through
-optimal control methods (shooting and trajectory optimization) that focus on
-minimizing energy expenditure of high-fidelity neuromuscular models in much
-simpler walking and running tasks. These methods produce simulations of much
+driven closed loop controlled simulation of low-fidelity humanoid models in
+complex virtual environments (e.g. [Tan2014]_ [Heess2017]_). Parallel to the
+reinforcement learning are efforts to generate closed and open loop controllers
+through optimal control methods (shooting and trajectory optimization) that
+focus on minimizing energy expenditure of high-fidelity neuromuscular models in
+more basic walking and running tasks. These methods produce simulations of much
 more realistic gait [Ackermann2010]_ [vandenBogert2011]_ [Wang2012]_
-[Geijtenbeek2013]_ [Mordatch2013]_. Very recently these parallel efforts have
-merged with signs of promise. For example, in the 2017 NIPS AI challenge
-contestants used deep reinforcement learning to discover realistic gait control
-for a muscle activated high-fidelity lower body neuromuscular model
-[Kidzinski2017]_. Machine learning and shooting based optimal control using the
-high-fidelity models are bound by the forward dynamics computation speeds,
-which are real-time at best. Advancements that reduce forward simulation speeds
-or circumvent the need to evaluate the stiff dynamics are needed to make more
-rapid progress. Successful simulations that incorporate modeled prostheses have
-only just emerged [Koelewijn2016]_.
+[Geijtenbeek2013]_ [Mordatch2013]_ [Uchida2016]_ [Dembia2017]_. Very recently
+these parallel efforts have merged with signs of promise. For example, in the
+2017 NIPS AI challenge contestants used deep reinforcement learning to discover
+realistic gait control for a muscle activated high-fidelity lower body
+neuromuscular model [Kidzinski2017]_. Machine learning and shooting based
+optimal control using the high-fidelity models are bound by the forward
+dynamics computation speeds, which are real-time at best. Advancements that
+reduce forward simulation speeds or circumvent the need to explicitly evaluate
+the stiff dynamics are needed to make more rapid progress. Successful
+simulations that incorporate modeled prostheses have just emerging (e.g.
+[Koelewijn2016]_) which is an exciting new path in the field.
 
 Powered assistive devices such as powered below- and above-knee prostheses have
-had interesting recent developments.
-
-Powered and passive Lower limb exoskeleton for paraplegics are
-just now being approved by the FDA for the US and European markets, e.g.Rewalk,
-Indego, Esko. These devices rely primary on non-neural control, offer no
-balance during gait, and very robotic gait.
+had interesting recent developments. Powered and passive Lower limb exoskeleton
+for paraplegics are just now being approved by the FDA for the US and European
+markets, e.g.Rewalk, Indego, Esko. These devices rely primary on non-neural
+control, offer no balance during gait, and very robotic gait.
 
 In the past year, we have started to see merger of the successes in software
 and the successes in hardware with demonstrations such as [OpenAI2018]_ but
 much is a bright future for discovery with lower limb systems.
 
 ..
-   TODO : Add Dembia's paper and Uchida: CMC
    TODO : Add Collin's clutch ankle paper. Add bicycle bmx paper.
    TODO : Ferris/Sawicki for powered ankle
    TODO : Take some refs from https://pdfs.semanticscholar.org/f147/212a95e4dc0ff1ca9a6b76e0b32c916b8f0b.pdf
+   TODO : Add bicycle balancing paper
 
 My Past Work in Human Motion & Control
 ======================================
@@ -280,11 +279,14 @@ California, Davis.
 .. [Moore2014d]
 .. [Moore2014e]
 .. [Moore2014f]
+.. [Tan2014]
 .. [Dembia2015]
 .. [Moore2015]
 .. [Moore2015a]
 .. [Koelewijn2016]
 .. [Moore2016]
+.. [Uchida2016]
+.. [Dembia2017]
 .. [Heess2017]
 .. [Meurer2017]
 .. [Kresie2017]
