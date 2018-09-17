@@ -14,6 +14,7 @@ pdf:
 	bibtex research-statement
 	pdflatex research-statement
 	pdflatex research-statement
+	pdftk cover-letter.pdf research-statement.pdf teaching-statement.pdf diversity-statement.pdf /home/moorepants/Documents/resume/resume.pdf cat output full-submission.pdf
 html:
 	rst2html research-statement.rst research-statement.html
 clean:
