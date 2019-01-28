@@ -1,0 +1,6 @@
+name: vibrations
+
+dependencies:
+  - python=3
+  - numpy
+  - matplotlib
