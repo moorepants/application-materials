@@ -1,0 +1,7 @@
+language: generic
+before_install:
+  - sudo apt update
+  - sudo apt upgrade -y
+  - sudo apt install -y python-docutils texlive pdftk
+script:
+  - make -C 2018/ucd-mae-hip
