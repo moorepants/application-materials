@@ -3,5 +3,6 @@ before_install:
   - sudo apt update
   - sudo apt upgrade -y
   - sudo apt install -y python-docutils texlive pdftk
+  - git clone --branch = ucd-mae-hip --depth 1 https://github.com/moorepants/resume.git
 script:
-  - make -C 2018/ucd-mae-hip
+  - make -C 2018/ucd-mae-hip RESUMELOC="resume"

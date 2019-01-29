@@ -1,4 +1,5 @@
 TARGETS = cover-letter research-statement teaching-statement diversity-statement
+RESUMELOC := "/home/moorepants/Documents/resume"
 all: pdf html
 pdf:
 	rst2latex --hyperref-options="citecolor=blue" \
@@ -14,7 +15,7 @@ pdf:
 	bibtex research-statement
 	pdflatex research-statement
 	pdflatex research-statement
-	pdftk cover-letter.pdf research-statement.pdf teaching-statement.pdf diversity-statement.pdf /home/moorepants/Documents/resume/resume.pdf cat output full-submission.pdf
+	pdftk cover-letter.pdf research-statement.pdf teaching-statement.pdf diversity-statement.pdf $(RESUMELOC)/resume.pdf cat output full-submission.pdf
 html:
 	rst2html research-statement.rst research-statement.html
 clean:
