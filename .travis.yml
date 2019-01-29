@@ -1,7 +1,7 @@
 language: generic
 before_install:
   - sudo apt update
-  - sudo apt install -y python-docutils texlive texlive-latex-extra pdftk
+  - sudo apt install -y python-docutils texlive texlive-latex-extra biber pdftk
   - git clone --branch=ucd-mae-hip --depth 1 https://github.com/moorepants/resume.git
 script:
   - make -C resume
