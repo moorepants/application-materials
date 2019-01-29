@@ -5,5 +5,5 @@ before_install:
   - git clone --branch=ucd-mae-hip --depth 1 https://github.com/moorepants/resume.git
 script:
   - make -C resume
-  - make -C 2018/ucd-mae-hip RESUMELOC="resume"
+  - make -C 2018/ucd-mae-hip RESUMELOC="../../resume"
   - make -C 2018/ucd-mae-hip clean
