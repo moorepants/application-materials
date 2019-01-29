@@ -10,11 +10,11 @@ a successful job offer, but may be helpful nonetheless.
 UC Davis Mechanical and Aerospace Engineering Prosthetics and Assistive Robotics Faculty
 ----------------------------------------------------------------------------------------
 
-- https://moorepants.github.io/application-materials/2018/ucd-mae-hip/cover-letter.pdf
-- https://moorepants.github.io/application-materials/2018/ucd-mae-hip/research-statement.pdf
-- https://moorepants.github.io/application-materials/2018/ucd-mae-hip/teaching-statement.pdf
-- https://moorepants.github.io/application-materials/2018/ucd-mae-hip/diversity-statement.pdf
-- https://moorepants.github.io/application-materials/2018/ucd-mae-hip/full-submission.pdf
+- `Cover Letter <https://moorepants.github.io/application-materials/2018/ucd-mae-hip/cover-letter.pdf>`_
+- `Research Statement <https://moorepants.github.io/application-materials/2018/ucd-mae-hip/research-statement.pdf>`_
+- `Teaching Statement <https://moorepants.github.io/application-materials/2018/ucd-mae-hip/teaching-statement.pdf>`_
+- `Diversity Statement <https://moorepants.github.io/application-materials/2018/ucd-mae-hip/diversity-statement.pdf>`_
+- `Full Submission (includes CV) <https://moorepants.github.io/application-materials/2018/ucd-mae-hip/full-submission.pdf>`_
 
 License
 =======
