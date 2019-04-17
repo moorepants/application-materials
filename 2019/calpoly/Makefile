@@ -16,6 +16,7 @@ pdf:
 	pdflatex research-statement
 	pdflatex research-statement
 	pdftk cover-letter.pdf research-statement.pdf teaching-statement.pdf diversity-statement.pdf $(RESUMELOC)/resume.pdf cat output full-submission.pdf
+	pdftk teaching-statement.pdf research-statement.pdf cat output teaching-and-research-statements.pdf
 html:
 	rst2html research-statement.rst research-statement.html
 clean:
