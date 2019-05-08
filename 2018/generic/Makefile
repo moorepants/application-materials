@@ -1,7 +1,6 @@
-TARGETS = cover-letter research-statement teaching-statement
+TARGETS = cover-letter research-statement teaching-statement diversity-statement
 RESUMELOC := "/home/moorepants/Documents/resume"
 POSITION = generic
-CANDSTATE := "/home/moorepants/Jobs/ucd-lpsoe/merit-review/candidate-statement-2018.pdf"
 all: pdf html
 pdf:
 	rst2latex --hyperref-options="citecolor=blue" \
@@ -17,7 +16,7 @@ pdf:
 	bibtex research-statement
 	pdflatex research-statement
 	pdflatex research-statement
-	pdftk cover-letter.pdf $(RESUMELOC)/resume.pdf research-statement.pdf teaching-statement.pdf $(CANDSTATE) cat output jkm-$(POSITION)-submission.pdf
+	pdftk cover-letter.pdf $(RESUMELOC)/resume.pdf research-statement.pdf teaching-statement.pdf diversity-statement.pdf cat output jkm-$(POSITION)-submission.pdf
 html:
 	rst2html research-statement.rst research-statement.html
 clean:
