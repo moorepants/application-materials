@@ -12,6 +12,11 @@ before_install:
   - git clone --branch=ucd-mae-hip --depth 1 https://github.com/moorepants/resume.git
 script:
   - make -C resume
+  # 2018 generic
+  - make -C 2018/generic RESUMELOC="../../resume"
+  - mkdir -p output/2018/generic
+  - cp 2018/generic/*.pdf output/2018/generic/
+  # 2018 ucd-mae
   - make -C 2018/ucd-mae-hip RESUMELOC="../../resume"
   - mkdir -p output/2018/ucd-mae-hip
   - cp 2018/ucd-mae-hip/*.pdf output/2018/ucd-mae-hip/

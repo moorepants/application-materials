@@ -7,6 +7,15 @@ successful job offer, but may be helpful nonetheless.
 2018
 ====
 
+Generic
+-------
+
+- `Cover Letter <https://moorepants.github.io/application-materials/2018/generic/cover-letter.pdf>`_
+- `Research Statement <https://moorepants.github.io/application-materials/2018/generic/research-statement.pdf>`_
+- `Teaching Statement <https://moorepants.github.io/application-materials/2018/generic/teaching-statement.pdf>`_
+- `Diversity Statement <https://moorepants.github.io/application-materials/2018/generic/diversity-statement.pdf>`_
+- `Full Submission (includes CV) <https://moorepants.github.io/application-materials/2018/generic/full-submission.pdf>`_
+
 UC Davis Mechanical and Aerospace Engineering Prosthetics and Assistive Robotics Faculty
 ----------------------------------------------------------------------------------------
 
