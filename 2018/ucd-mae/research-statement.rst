@@ -7,9 +7,9 @@ Introduction
 
 My research efforts center on understanding and improving human mobility by
 developing biomemetic controllers for powered assistive devices and humanoid
-robots and on developing control augmentation for small manually controlled
+robots and on developing control augmentation for personal manually controlled
 vehicles. The ability humans have to ambulate and manipulate devices continues
-to be the envy of engineers who desire to artificially mimic their motion.
+to be the envy of engineers who desire to artificially imitate their motion.
 Understanding and mimicking the intricacies of the mammalian neuromuscular
 system have the potential to allow us to improve human life through assistive
 machine and device design. However, contemporary robots and machines are still
@@ -154,7 +154,7 @@ and simulation tools, much of which I have developed and published. Most
 notably, I am a core developer of SymPy [SymPyDevelopmentTeam2006]_, a computer
 algebra system, and the maintainer of the classical mechanics package
 [Gede2013]_. Our 2017 paper [Meurer2017]_ on the 11 year old software has over
-100 citations, along with thousands of users and hundreds of contributors
+180 citations, along with thousands of users and hundreds of contributors
 making it one of the most popular packages in the Scientific Python ecosystem.
 Additionally, I have developed a suite of bicycle dynamics related software
 packages [Moore2010b]_ [Moore2011d]_ [Moore2011a]_ [Moore2011e]_ and
@@ -166,7 +166,7 @@ for general purpose trajectory optimization and parameter estimation
 My Research Plans at UC Davis
 =============================
 
-As a professor of prosthetics and assistive robotics I will play an integral
+As a professor of mechanical and aerospace engineering I will play an integral
 role in UC Davis's vision for growth in neuroengineering. I plan to lead a
 laboratory that will provide computational and experimental biomechanics
 expertise alongside humanoid robot and assistive device design. This will
@@ -193,21 +193,22 @@ Lab, TU Delft's Biomechanics Department, and Meijo University).
 
 I will continue to participate in a number of academic communities that I am
 currently involved with. The lab will target conferences such as Dynamic
-Walking and ROSCon along with the American and International Societies of
-Biomechanics (including the ISB Technical Simulation group). On the software
-side, we will continue to present at SciPy, PyData, and PyCon for open source
-computation.
+Walking and Bicycle and Motorcycle Dynamics along with the American and
+International Societies of Biomechanics (including the ISB Technical Simulation
+group). On the software side, we will continue to present at SciPy, PyData, and
+PyCon for open source computation.
 
-In the MAE department, I am interested in developing and growing collaborations
+In and outside the MAE department, I am interested in growing collaborations
 with Zhaodan Kong for high level robot planning and machine learning, Xinfan
-Lin for estimation needs in human motion, Karen Moxon for neural sensing and
-control, Sanjay Joshi for electromyography and control, and Stephen Robinson's
-human/robotics integration. I have relationships with emeritus Profs. Hess,
-Hubbard, Hull, Eke, Margolis, and Karnopp for dynamics, biomechanics, and
-control. I am a faculty affiliate at the new Data Science Initiative and plan
-leverage that relationship to grow our data centric computational work. I also
-look forward to developing more cross disciplinary research partners, many which
-have begun with the 70+ capstone design projects I have mentored.
+Lin for estimation needs in human motion, and David Hawkins for human
+performance. I have relationships with emeritus Profs. Hess, Hubbard, Hull,
+Eke, Margolis, and Karnopp for vehicle dynamics, biomechanics, and control. I
+am a faculty affiliate at the new Data Science Initiative and plan leverage
+that relationship to grow our data centric computational work. My work with the
+Institute for Transpiration studies will grow with collaborations with Susan
+Handy and Dillon Fitch. I also look forward to developing more cross
+disciplinary research partners, many which have begun with the 790+ capstone
+design projects I have mentored.
 
 The lab I am planning will be able to 1) collect motion data from humans and
 robots in mobility related activities both in the lab and in natural
@@ -220,10 +221,11 @@ My initial project plans are multifold and will build from my prior work. I
 will start recruiting students for 1) applying parameter identification using
 direct collocation to perturbed walking data to discover a gain scheduled
 closed loop control, 2) development of a scaled balancing robot that simulates
-perturbed human balancing, 3) accelerating lower body neuromuscular forward
-dynamics simulations through implicit dynamics and optimized code generation
-and common sub-expression evaluation across CPU/GPU cores, and 4) development
-of a low-fidelity lower limb exoskeleton for controller testing.
+perturbed human balancing, 3) development of an autonomous bicycle, 4)
+accelerating lower body neuromuscular forward dynamics simulations through
+implicit dynamics and optimized code generation and common sub-expression
+evaluation across CPU/GPU cores, and 5) development of a low-fidelity lower
+limb exoskeleton for controller testing.
 
 I will use the results from these initial projects to develop grant proposals
 for the National Science Foundation's CMMI, IIS, CBET, and CNS divisions [1]_
@@ -235,7 +237,7 @@ innovation support and partner with prior mentioned companies for small
 commercially relevant project support.
 
 Given the opportunity, I have the skills, network, and vision to succeed as a
-professor of prosthetics and assistive robotics at the University of
+professor of mechanical and aerospace engineering at the University of
 California, Davis.
 
 .. [1] Division of Civil, Mechanical and Manufacturing Innovation, Division of
