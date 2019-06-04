@@ -205,9 +205,9 @@ performance. I have relationships with emeritus Profs. Hess, Hubbard, Hull,
 Eke, Margolis, and Karnopp for vehicle dynamics, biomechanics, and control. I
 am a faculty affiliate at the new Data Science Initiative and plan leverage
 that relationship to grow our data centric computational work. My work with the
-Institute for Transpiration studies will grow with collaborations with Susan
+Institute for Transportation Studies will grow with collaborations with Susan
 Handy and Dillon Fitch. I also look forward to developing more cross
-disciplinary research partners, many which have begun with the 790+ capstone
+disciplinary research partners, many which have begun with the 90+ capstone
 design projects I have mentored.
 
 The lab I am planning will be able to 1) collect motion data from humans and

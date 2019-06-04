@@ -6,7 +6,7 @@ pdf:
 	rst2latex --hyperref-options="citecolor=blue" \
 		--use-latex-citations \
 		--use-bibtex=plain,references \
-		--documentoptions="letter" \
+		--documentoptions="letter,titlepage" \
 		--latex-preamble="\usepackage[margin=1in]{geometry}" \
 		research-statement.rst research-statement.tex
 	for target in $(TARGETS) ; do \
