@@ -7,7 +7,7 @@ env:
     - secure: "l3MEH0HvUWJG3VpkfJmZAk3BgRcql/Eza/Y8D+qZlzNCbig+0xnbKml5US4fhhRs+6xH3UKxLF7WRiWYpxXLCUqCpb3atR2YSqOtv5oHBlf44B6qq0kgXYAu/Ql6J8ewfSZLL2DOaKMfjA2+TEvd/DkrFy6vJ9yHZxLyUHcxSXD6YfeeWmPAd1njeAyQlZC3vIyw9L6ou5CLeykL3e15DMfZC2Mqxa/+myeIhB/mb9kIJcSO80CC/P/RlI817+HwpSsRLSyJrsdhxxQPUZcGCk+jg3/tFMZLIRRoitCewmwavW1xE5bGbhegEguiLeaiCHphZhPVxPsk3KZGbLVvG0PO0Nl6K4yR/Ax2V4M/QASL592Nt6UufGfzuMF9cRHzDPpBaKpjH5a9VlrsdkeSlm8HZivlfXJtwbjtypnJX++GIRWN4lzBG2l1LLVzauh4PSVHyXP+Pz6Asd3zWBybb3CmwnJZU87vJc2UA7S7bydKZlBNWk/Qf0GsHCWxKDqs+Bu9EZDq7DRjcKbe28g8xze0HpjJ9EqZzTcHjurUc86pjhi9mhYel+Nr4vBZQAGZgJI1OQijWRR+YsXOunEnWyQSQQE3uCQYx5fX83sBmHpKzbO+ykA0NqnCKyYjnqF7fELWRbImJj8kklsJw7nwphv4pQHwcHa8Zzqk7Imz2X8="
 before_install:
   - sudo apt update
-  - sudo apt install -y python-docutils texlive texlive-latex-extra biber pdftk pandoc
+  - sudo apt install -y python-docutils texlive texlive-latex-extra texlive-bibtex-extra biber pdftk pandoc
   - pip install doctr
   - git clone --branch=ucd-mae-hip --depth 1 https://github.com/moorepants/resume.git
 script:
