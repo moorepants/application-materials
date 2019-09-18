@@ -25,6 +25,15 @@ UC Davis Mechanical and Aerospace Engineering Prosthetics and Assistive Robotics
 - `Diversity Statement <https://moorepants.github.io/application-materials/2018/ucd-mae-hip/diversity-statement.pdf>`_
 - `Full Submission (includes CV) <https://moorepants.github.io/application-materials/2018/ucd-mae-hip/full-submission.pdf>`_
 
+UC Davis Mechanical and Aerospace Engineering Multibody & System Dynamics and Machine Design & Robotics
+-------------------------------------------------------------------------------------------------------
+
+- `Cover Letter <https://moorepants.github.io/application-materials/2018/ucd-mae/cover-letter.pdf>`_
+- `Research Statement <https://moorepants.github.io/application-materials/2018/ucd-mae/research-statement.pdf>`_
+- `Teaching Statement <https://moorepants.github.io/application-materials/2018/ucd-mae/teaching-statement.pdf>`_
+- `Diversity Statement <https://moorepants.github.io/application-materials/2018/ucd-mae/diversity-statement.pdf>`_
+- `Full Submission (includes CV) <https://moorepants.github.io/application-materials/2018/ucd-mae/full-submission.pdf>`_
+
 License
 =======
 
