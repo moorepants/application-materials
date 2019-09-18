@@ -9,19 +9,24 @@ before_install:
   - sudo apt update
   - sudo apt install -y python-docutils texlive texlive-latex-extra texlive-bibtex-extra biber pdftk pandoc
   - pip install doctr
-  - git clone --branch=ucd-mae-hip --depth 1 https://github.com/moorepants/resume.git
+  - git clone https://github.com/moorepants/resume.git
 script:
-  - make -C resume
   # 2018 generic
+  - make -C resume
   - make -C 2018/generic RESUMELOC="../../resume"
   - mkdir -p output/2018/generic
   - cp 2018/generic/*.pdf output/2018/generic/
   # 2018 ucd-mae-hip
+  - cd resume
+  - git checkout ucd-mae-hip
+  - make
+  - cd -
   - make -C 2018/ucd-mae-hip RESUMELOC="../../resume"
   - mkdir -p output/2018/ucd-mae-hip
   - cp 2018/ucd-mae-hip/*.pdf output/2018/ucd-mae-hip/
   # 2018 ucd-mae
   - cd resume
+  - make clean
   - git checkout ucd-mae-dynamics-robotics
   - make
   - cd -
