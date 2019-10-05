@@ -1,0 +1,162 @@
+\documentclass{article}
+
+\usepackage[a4paper,margin=25cm]{geometry}
+\usepackage[colorlinks=true]{hyperref}
+
+\title{Research Statement}
+\date{}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+%
+My primary research efforts center on understanding and improving human
+mobility by developing biomemetic controllers derived from measurements of
+human motion during unassisted activities (walking, jumping, etc.) and
+activities in which the human is operating a vehicle (bicycling, lower-limb
+prostheses) or manipulating a tool (sporting equipment). I am most interested
+in developing human-in-the-loop control systems that augment the human's
+control experience for improved control, safe operation, and performance
+enhancement.
+
+The fundamental question that I am currently invested in is:
+
+\begin{quote}
+ Can dynamically human-similar or human-coupled machines and their controllers
+ be designed to move as well as or better than a human controller would move,
+ if provided neurally-limited driving control inputs?
+\end{quote}
+
+for powered assistive devices and humanoid
+robots and on developing control augmentation for small manually controlled
+vehicles. The ability humans have to ambulate and manipulate devices continues
+to be the envy of engineers who desire to artificially mimic their motion.
+Understanding and mimicking the intricacies of the mammalian neuromuscular
+system have the potential to allow us to improve human life through assistive
+machine and device design. However, contemporary robots and machines are still
+limited in their ability to emulate the robust capabilities of mammalian
+sensing and actuation.
+
+I am interested in identifying practical controllers for devices, robots, and
+vehicles which encode feed-forward and feedback control such that the combined
+human/machine system has nearly identical motion to an able-bodied human. My
+current focus is on improving balance while standing and walking with lower
+limb prostheses and exoskeletons. To do this my research currently has three
+primary foci:
+
+\begin{enumerate}
+  \item Identifying how humans balance and locomote through data intensive
+    computational estimation, learning, and identification.
+  \item Applying biomemetic control algorithms and design enhancements derived
+    from identified controllers to assistive devices such as exoskeletons,
+    powered prostheses, small vehicles, and humanoid robots.
+  \item Developing next generation open and collaborative computational tools
+    to back efforts in the first two items.
+ \end{enumerate}
+
+Single track vehicles offer a very appealing platform for studying mutlibody
+dynamics and control (manual and automous).
+
+\section{Current State of Single Track Vehicle Dynamics and Control}
+%
+
+\section{My Past Work in Human Motion and Control}
+%
+Much of my prior research has focused on the problem of control identification
+in human balance where I have attempted to answer this question:
+
+   Given the simultaneous measurements of the kinematics of human motion and
+   optionally human/environment interface and internal system forces, what is
+   the casual relationship from sensing to actuation in human motion?
+
+My graduate work focused on understanding the control mechanisms humans use
+while balancing on a bicycle. Because the bicycle is a dynamically complex
+vehicle \cite{Astrom2005,Meijaard2007,Moore2007,Moore2008} that acts as an
+intermediary between the human and the environment it is a powerful vehicle
+platform for understanding balance.
+
+I began by applying principal component analysis to a large collection of
+motion capture data during steady state bicycling on a treadmill, which
+identified dominant motion patterns and exposed subtle leg motions used for
+balance at low speeds~\cite{Moore2009a,Moore2011c}. We further confirmed
+this low speed behavior with video analysis of more natural bicycling behavior around a
+city and on a treadmill~\cite{Kooijman2009}. Following those initial experiments, I
+developed an extensively instrumented bicycle, capable of accurately measuring the full
+dynamic state of the rider-vehicle system \cite{Moore2012,Moore2013} and
+collected copious amounts of data during responses to lateral perturbations in
+path tracking tasks. Using a manual control based theoretic controller we
+developed~\cite{Hess2012} and data driven parameter estimation, I identified a set of
+controllers that explained the dominant rider perturbation linear response
+behavior~\cite{Moore2012}, which was then used to characterize a general controller
+able to mimic human behavior for a broader set of control tasks. This was
+expanded further with other theoretic controller structures for bicycling
+\cite{Schwab2012a,Schwab2012,Schwab2013} and also applied to aircraft control
+identification~\cite{Hess2013}.
+
+The work on bicycle control identification lead into postdoctoral work focused
+on developing controllers for lower extremity exoskeletons designed to assist
+paraplegic individuals in walking. We partnered with Parker Hannifin Corp. and
+targeted their Indego Exoskeleton. My goal was to provide natural gait and
+unassisted balance for these devices, something that is still lacking today.
+Utilizing an actuated treadmill coupled with full body kinematic tracking, I
+collected large quantities of walking data from both normal walking and
+longitudinally perturbed walking. I published the data as one of the first data
+papers in the field \cite{Moore2015b} and demonstrated the effectiveness of the
+treadmill belt perturbation method. I used this data with a direct gait cycle
+gain scheduled feedback identification technique to identify possible closed
+loop controllers \cite{Moore2013c,Moore2014a,Moore2014c}. This work led to the
+development of an indirect identification technique based on parameter
+estimation with direct collocation to enable simulated validation of the
+controllers. Direct collocation gave us the computational speed to discretely
+simulate hours of data. Starting with a simpler problem, I developed methods
+with data derived from human perturbed standing data. The techniques led to
+orders of magnitude of improvement in computation speed and control
+identification strictly from kinematic data \cite{Moore2014e,Moore2015}.
+
+Since moving into a teaching faculty position at UC Davis I have mentored and
+led a number of sensing, instrumentation, and robotics projects that build on
+the prior research with various local companies and undergraduate students. We
+have developed an adaptive mouth-based control for an electric tricycle which
+is ALS and quadriplegic friendly with Outrider USA and Disability Reports. This
+past year my students developed a powered cable driven hand prostheses for
+partial upper body paralysis with Ekso Bionics. With SRE Engineering we
+developed a wireless boot for measuring ground reaction forces for horse
+trotting in non-laboratory settings that I would like to apply to human
+walking. I also mentored a group of students that developed a robot to tie a
+shoe, one of the more complex tasks human hands perform. Lastly, I have
+developed a desktop balancing robot that will be used to validate the indirect
+identification methods for standing balance that I mentioned above.
+
+With
+undergraduate teams, I have published a paper on the design of safe ski
+jumps~\cite{Moore2018} and have a paper under review in which we improved the
+accuracy of rowing performance metrics using filtering techniques from
+smartphone inertial measurement unit data~\cite{Cloud2019b}.
+
+
+Some of my
+current projects can be viewed on my lab website:
+\url{http://mechmotum.github.io}.
+
+All of my research relies heavily on open source computational data analysis
+and simulation tools, much of which I have developed and published. Most
+notably, I am a core developer of SymPy~\cite{SymPyDevelopmentTeam2006}, a
+computer algebra system, and the maintainer of the classical mechanics
+package~\cite{Gede2013}. Our 2017 paper \cite{Meurer2017} on the 11 year old
+software has over 200 citations, along with thousands of users and hundreds of
+contributors making it one of the most popular packages in the Scientific
+Python ecosystem.  Additionally, I have developed a suite of bicycle dynamics
+and control related software packages
+\cite{Moore2010b,Moore2011d,Moore2011a,Moore2011e} and dynamics/biomechanics
+packages \cite{Dembia2011,Moore2011,Moore2011b} \cite{Moore2013b}
+\cite{Moore2017b} \cite{Moore2018a}. Recently I have published a package for
+general purpose trajectory optimization and parameter estimation
+\cite{Moore2018} and also for ski jump design \cite{Moore2018a}.
+
+\bibliographystyle{ieee}
+\bibliography{references}
+
+\end{document}
