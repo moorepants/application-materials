@@ -124,7 +124,7 @@ identification methods for standing balance that I mentioned above.
 
 Over the last few years I have further developed our theorectic single track
 vehicle handling quality metric~\cite{Hess2012} and formulate a bicycle
-optimial design method that adapts CMA-ES to work with constraint equations to
+optimal design method that adapts CMA-ES to work with constraint equations to
 discover a suite of ununual bicycle designs that have optimal lateral handling
 qualities~\cite{Moore2016,Moore2019a}. Furthermore, we have been developig the
 experimental methods to validate the handling
@@ -134,9 +134,6 @@ With undergraduate teams, I have published a paper on the design of safe ski
 jumps~\cite{Moore2018} and have a paper under review in which we improved the
 accuracy of rowing performance metrics using filtering techniques from
 smartphone inertial measurement unit data~\cite{Cloud2019b}.
-
-More about my research projects can be viewed on my lab website:
-\url{http://mechmotum.github.io}.
 
 All of my research relies heavily on open source computational data analysis
 and simulation tools, much of which I have developed and published. Most
@@ -153,80 +150,107 @@ packages \cite{Dembia2011,Moore2011,Moore2011b} \cite{Moore2013b}
 general purpose trajectory optimization and parameter estimation
 \cite{Moore2018} and also for ski jump design \cite{Moore2018a}.
 
+More about my research projects can be viewed on my lab website:
+\url{http://mechmotum.github.io}.
+
 \section*{My Bicycle Research Plans}
 %
 Over the last two decades, the use of bicycles for transportation has been
 increasing in many countries that have historically low mode share. This
-positive change is the result of many factors. In the near future, bicycles
-will be connected into the smart city, we will see greater use of electric
-bicycles, and both older and younger riders will grow in numbers. Yet
-bicyclists will remain vulnerable road users and with the increase in ridership
-more  political and technological solutions will be needed to increase the
-safety. As a mechanical engineer, I plan to play an integral role in growing
-bicycling and making it safer through technological advances.
+positive change is the result of many factors, one of which is advances in
+technology. In the near future, bicycles will be connected into the smart city,
+we will see far greater use of electric bicycles, bicycles will be used for
+cargo purposes in urban centers, and both older and younger riders will grow in
+numbers. Yet bicyclists will remain vulnerable road users and with the increase
+in ridership and more political and technological solutions will be needed to
+increase the safety. As a mechanical engineer, I plan to play an integral role
+in growing bicycling in the world and making it safer through technological
+advances.
 
-As a professor focusing on bicycle dynamics and control I will have several
+As a professor focusing on bicycle dynamics and control, I will have several
 parallel and intertwined avenues of research that will support this broader
 vision:
 %
 \begin{itemize}
-  \item Data driven vehicle and biomechancial modeling of the bicycle-rider
+  \item Data driven vehicle and biomechanical modeling of the bicycle-rider
     system
-  \item Data driven manual control characterization and identification in bicycle
-    balance and direction
+  \item Data driven manual control characterization and identification in
+    bicycle balance and navigation
   \item Augmented and autonomous control for improvements in bicycling safety
     and handling
   \item Development of the next generation of bicycle designs for improvements
     to transportation
-  \item Application of vehicle simulation to influence transporatation
-    instracture design
+  \item Application of vehicle simulation to influence transportation
+    infrastructure design
   \item Performance and safety improvements in the sport of cycling
 \end{itemize}
 
-From these avenues I will produce research ranging from fundamental concepts in
-vehicle dynamics and human control to applied .
+I will initiate these research avenues by focusing on several low hanging fruit
+based on the current state of the art and a amalgamation of my prior work and
+the TU Delft Bicycle and Control Laboratory's prior work. The following
+paragraphs detail the initial projects I have in mind.
 
-The most popular open loop bicycle dynamics model fails to make accurate
-predictions of the vehicle's motion resulting from prescribed input forces
-acting on the handlebars~\cite{Moore2013a}. Using data collected during closed
-riding (via robot and/or human) I want to discover the first principles
-that improves this important model. In a similar respect, there are
-many biomechanical models of the human rider of varying complexities.
+The most popular open loop bicycle vehicle dynamics model fails to make
+accurate predictions of the vehicle's motion resulting from prescribed input
+forces acting on the handlebars~\cite{Moore2013a}. Using data collected during
+closed-loop riding (via robot and/or human) I want to work to discover the
+first principles that are missing from the current model. I also plan to
+further work in developing a simple rider biomechanical model that captures the
+most important degrees of freedom and actuation methods based
+on~\cite{Moore2011}.
 
 Identification of the controller in a closed loop feedback and feedforwad
-system, is not a straight forward task. I want to expand on the robustness of
-my earlier efforts at this identification, by collecting data during a broad
-set of events rich in frequency content. I want to include additional
-physiological measures to capture signals related to the internal sensing
-system of the human body.
+system, is not a straight forward task~\cite{vanderKooij2005}. I want to expand
+on the robustness of my earlier efforts at this identification, by collecting
+data during a broad set of events rich in frequency content while collecting
+additional physiological measures to capture signals related to the internal
+sensing system of the human body.
 
-Using both robotic bicycle and a steer-by-wire bicycle I plan to explore how
-vehicle and controller design can effectively assist the rider's control, to
-take over when the human's deficiencies are present and to maximum the
-performance in safety critical maneuvering. These efforts will provide
-essential elements to having autnotmous single track vehicles in the future and
-safety enhancments that go far beyond simple traction control for single track
-vehicles.
+To do the above, I want to design and construct a new force sensing treadmill
+for single track vehicle experimentation. Measuring the ground reaction forces
+and moments at each individual tire while performing maneuvers on a treadmill
+in a simulated environment will provide the next level of fidelity in
+understanding the vehicle and rider dynamics. This treadmill will be unique in
+the world and combined with simulation environments develop at TU Delft will
+offer the most realistic and capable platform for single track vehicle dynamics
+and control studies.
 
-One of my first initiatives will be to develop a new force sensing treadmill
-for single track vehicle experimenation. Measureing the ground reaction forces
-and moments at each individual tire while peforming manuevers on a treadmiall
-in simulated environment will provide the next level of fidelity in
-understanding the vehicle and rider dynamics.
+Using both a robotic bicycle (currently on loan to TU Delft from UC Davis) and
+TU Delft's steer-by-wire bicycle I plan to explore how vehicle and controller
+design can effectively assist the rider's control, i.e. to take over when the
+human's deficiencies are present and to maximize the performance in safety
+critical maneuvering. These efforts will provide essential elements to having
+autonomous single track vehicles in the future and safety enhancements that go
+far beyond simple traction control for single track vehicles.
+
+I want my research to have direct impact on transportation mode share and
+safety for bicycling. I have preliminary work on using bicycle simulations for
+evaluating bicycle transportation infrastructure and creating standards for
+infrastructure. I call this ``physics informed bicycle infrastructure
+evaluation an design''. There is also an opportunity to apply bicycle balance
+nd control theory to the design of cargo bicycles and other non-traditional
+bicycles.
+
+I have long had a fantasy of being part of a team that could clam the work
+human powered speed record. TU Delft has done so in the past and I intend to
+help them do so again. I would like to apply my work in trajectory optimization
+in both the speed challenge and other timed races. The are additionally
+interesting opportunities to relieve the speed challenge rider from balance
+control tasks so they can focus fully on power generation.
 
 The lab I envision will also support developments in all types of bicycle and
-related technologies. Examples may be advances in tire material propertiies,
-evaluation of gearing systems, power agumentation control in pedal assist
+related technologies. Examples may be advances in tire material properties,
+evaluation of gearing systems, power augmentation control in pedal assist
 electric bicycles, ergonomics, etc.
 
-I have had a long time fantasy of being part of a team that could clam the work
-human powered speed record. TU Delft has done so in the past and I intend to
-help them do so again. Applying research in optimal 
+I am unfortunately at a disadvantage for acquiring funding in the Netherlands
+and the EU due to my funding history all being within the United States system.
+I will seek support from colleagues in the department to get up to speed
+quickly on the various opportunities and leverage partnerships.
 
-Work with industry
-
-consumer cycling and cargo bicycles, but also sports applications such as track cycling, road cycling and BMX
-
+% Work with industry
+% consumer cycling and cargo bicycles, but also sports applications such as track cycling, road cycling and BMX
+% developin a theory on bicycle handling
 
 \bibliographystyle{plain}
 \bibliography{references}
