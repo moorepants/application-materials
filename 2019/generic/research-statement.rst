@@ -7,16 +7,14 @@ Introduction
 
 My research efforts center on understanding and improving human mobility by
 developing biomemetic controllers for powered assistive devices and humanoid
-robots and on developing control augmentation for small manually controlled
-vehicles. The ability humans have to ambulate and manipulate devices continues
-to be the envy of engineers who desire to artificially mimic their motion.
-Understanding and mimicking the intricacies of the mammalian neuromuscular
-system have the potential to allow us to improve human life through assistive
-machine and device design. However, contemporary robots and machines are still
-limited in their ability to emulate the robust capabilities of mammalian
-sensing and actuation.
-
-The fundamental question that I am interested in is:
+robots and developing control augmentation for personal mobility vehicles. The
+ability humans have to ambulate and manipulate devices continues to be the envy
+of engineers who desire to artificially mimic their motion. Understanding and
+mimicking the intricacies of the mammalian neuromuscular system have the
+potential to allow us to improve human life through assistive machine and
+device design. However, contemporary robots and machines are still limited in
+their ability to emulate the robust capabilities of mammalian sensing and
+actuation. The fundamental question that I am interested in is:
 
    Can dynamically human-similar machines and their controllers be designed to
    move as a human would move, if provided neurally-limited driving control
@@ -26,8 +24,8 @@ I am interested in identifying practical controllers for devices, robots, and
 vehicles which encode feed-forward and feedback control such that the combined
 human/machine system has nearly identical motion to an able-bodied human. My
 current focus is on improving balance while standing and walking with lower
-limb prostheses and exoskeletons. To do this my research currently has three
-primary foci:
+limb prostheses and exoskeletons and self-balancing single track vehicles. To
+do this my research currently has three primary foci:
 
 1. Identifying how humans balance and locomote through data intensive
    computational estimation, learning, and identification.
@@ -144,10 +142,13 @@ partial upper body paralysis with Ekso Bionics. With SRE Engineering we
 developed a wireless boot for measuring ground reaction forces for horse
 trotting in non-laboratory settings that I would like to apply to human
 walking. I also mentored a group of students that developed a robot to tie a
-shoe, one of the more complex tasks human hands perform. Lastly, I have
+shoe, one of the more complex tasks human hands perform. I have
 developed a desktop balancing robot that will be used to validate the indirect
-identification methods for standing balance that I mentioned above. Some of my
-current projects can be viewed on my lab website: http://mechmotum.github.io.
+identification methods for standing balance that I mentioned above. The most
+recent projects are estimating rowing performance metrics from limited, noisy
+IMU data [Cloud2019v]_ and optimal design of bicycles for improved handling
+[Moore2019a]_ [Gilboa2019a]_ [Metz2019c]_. My current projects can be
+viewed on my lab website: http://mechmotum.github.io.
 
 All of my research relies heavily on open source computational data analysis
 and simulation tools, much of which I have developed and published. Most
@@ -167,10 +168,10 @@ My Research Plans
 =================
 
 As a new professor I will play an integral role in your department's vision for
-mechanical and aerospace engineering. I plan to lead a laboratory that will
-provide computational and experimental biomechanics expertise alongside
-humanoid robot and assistive device design. I hope to contribute to the
-department with a modernized biomechatronics research and teaching focus.
+biomechanical engineering. I plan to lead a laboratory that will provide
+computational and experimental biomechanics expertise alongside humanoid robot
+and assistive device design. I hope to contribute to the department with a
+modernized biomechatronics research and teaching focus.
 
 With more than a decade in Northern California, I have a wide network of
 partners to bring this vision to life that span orthotics companies to Bay Area
@@ -277,3 +278,7 @@ professor of mechanical and aerospace engineering.
 .. [Moore2018a]
 .. [Moore2018b]
 .. [OpenAI2018]
+.. [Moore2019a]
+.. [Cloud2019b]
+.. [Gilboa2019a]
+.. [Metz2019c]
