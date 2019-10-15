@@ -146,7 +146,7 @@ shoe, one of the more complex tasks human hands perform. I have
 developed a desktop balancing robot that will be used to validate the indirect
 identification methods for standing balance that I mentioned above. The most
 recent projects are estimating rowing performance metrics from limited, noisy
-IMU data [Cloud2019v]_ and optimal design of bicycles for improved handling
+IMU data [Cloud2019b]_ and optimal design of bicycles for improved handling
 [Moore2019a]_ [Gilboa2019a]_ [Metz2019c]_. My current projects can be
 viewed on my lab website: http://mechmotum.github.io.
 
