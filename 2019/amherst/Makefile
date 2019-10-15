@@ -1,6 +1,6 @@
-TARGETS = cover-letter research-statement teaching-statement diversity-statement
+TARGETS = cover-letter research-statement teaching-statement
 RESUMELOC := "/home/moorepants/Documents/resume"
-POSITION = generic
+POSITION = amherst
 all: pdf html
 pdf:
 	rst2latex --hyperref-options="citecolor=blue" \
@@ -16,7 +16,7 @@ pdf:
 	bibtex research-statement
 	pdflatex research-statement
 	pdflatex research-statement
-	pdftk cover-letter.pdf $(RESUMELOC)/resume.pdf research-statement.pdf teaching-statement.pdf diversity-statement.pdf cat output jkm-$(POSITION)-submission.pdf
+	pdftk cover-letter.pdf $(RESUMELOC)/resume.pdf research-statement.pdf teaching-statement.pdf cat output jkm-$(POSITION)-submission.pdf
 html:
 	rst2html research-statement.rst research-statement.html
 clean:
