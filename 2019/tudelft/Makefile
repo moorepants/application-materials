@@ -1,7 +1,7 @@
 TARGETS = cover-letter research-statement teaching-statement
 RESUMELOC := "/home/moorepants/Documents/resume"
-POSITION = generic
-all: pdf html
+POSITION = tudelft
+all: pdf
 pdf:
 	for target in $(TARGETS) ; do \
 		pdflatex $$target ; \
