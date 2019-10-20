@@ -15,7 +15,7 @@
 \section*{Introduction}
 %
 My primary research efforts have centered on understanding and improving human
-mobility by developing biomemetic controllers derived from data collected of
+mobility by developing biomemetic controllers derived from data collected on
 human motion during unassisted activities (e.g. standing, walking) and
 activities in which the human is operating a vehicle (e.g. bicycling,
 skateboarding) or manipulating a tool (e.g. leg prostheses, sporting
@@ -33,6 +33,7 @@ The fundamental question that I am currently focused on is:
 To answer this question my research currently has three primary foci:
 %
 \begin{enumerate}
+  \setlength\itemsep{0.1em}
   \item Identifying how humans balance and locomote through data intensive
     computational estimation, learning, and identification.
   \item Applying biomemetic control algorithms and design enhancements derived
@@ -75,7 +76,7 @@ confirmed this low speed behavior with video analysis of more natural bicycling
 behavior around a city and on a treadmill~\cite{Kooijman2009}. This work has
 since been widely cited in the motion studies literature.
 
-Following those initial experiments, I designed and fabricated an unique
+Following those initial experiments, I designed and fabricated a uniquely
 instrumented bicycle, capable of accurately measuring the full dynamic state of
 the rider-vehicle system~\cite{Moore2012,Moore2013}, including the most
 accurate steer torque measurements to date. With this instrument, I collected
@@ -85,9 +86,9 @@ model~\cite{Hess2012}, I applied data driven parameter estimation techniques to
 arrive at set of controllers that explained the rider's dominant linear
 response behavior to the perturbations~\cite{Moore2012}. I showed that this
 control model was able to mimic human behavior for a broader set of control
-tasks as well could be used to estimate the handling qualities of different
-bicycle designs. This work also supported other theoretic controller structures
-for bicycling~\cite{Schwab2012a,Schwab2012,Schwab2013} and was also applied to
+tasks and could be used to estimate the handling qualities of different bicycle
+designs. This work also supported other theoretic controller structures for
+bicycling~\cite{Schwab2012a,Schwab2012,Schwab2013} and was also applied to
 aircraft control identification~\cite{Hess2013}.
 
 The work on bicycle control identification lead into postdoctoral work focused
@@ -107,9 +108,9 @@ I used the perturbed walking data with a direct gait cycle gain scheduled
 feedback identification technique to identify possible closed loop
 controllers~\cite{Moore2013c,Moore2014a,Moore2014c}. The technique proved to be
 very computationally efficient and the identified controllers exhibited
-repeatable feedback patterns in the gait cycle of across the walkers.
+repeatable feedback patterns in the gait cycle across the walkers.
 
-Difficulties in utility of the prior work, led to the development of an
+Difficulties in utility of the prior work led to the development of an
 indirect identification technique based on parameter estimation with direct
 collocation to enable simulated validation of the
 controllers~\cite{Moore2014e,Moore2015}.  We demonstrated the computational
@@ -145,19 +146,18 @@ optimal bicycles~\cite{Gilboa2019a} and evaluating them in terms of handling.
 I have also led two projects in sports engineering in the past couple of years:
 1) development of a web application for designing and analyzing ski jumps for
 improving jumper safety~\cite{Moore2018a,Cloud2019a} and 2) the implementation
-of real-time algorithms which improve estimation of competitive rowing
-performance metrics from smartphone inertial measurement unit
-data~\cite{Cloud2019b}.
+of real-time algorithms that improve estimation of competitive rowing performance
+metrics from smartphone inertial measurement unit data~\cite{Cloud2019b}.
 
 All of my research relies heavily on open source computational data analysis
 and simulation tools, many  of which I have developed and published. Most
 notably, I am a core developer of the computer aided algebra system,
-SymPy~\cite{SymPyDevelopmentTeam2006}, and the lead maintainer of the associated
-classical mechanics package~\cite{Gede2013}. Our 2017 paper \cite{Meurer2017}
-on the 11 year old software has over 250 citations, along with thousands of
-users and hundreds of contributors making it one of the most popular packages
-in the Scientific Python ecosystem. Additionally, I have developed a suite of
-bicycle dynamics and control software
+SymPy~\cite{SymPyDevelopmentTeam2006}, and the lead maintainer of the
+associated classical mechanics package~\cite{Gede2013}. Our 2017 paper
+\cite{Meurer2017} on the 11 year old software has over 250 citations, along
+with thousands of users and hundreds of contributors making it one of the most
+popular packages in the Scientific Python ecosystem. Additionally, I have
+developed a suite of bicycle dynamics and control software
 packages~\cite{Moore2010b,Moore2011d,Moore2011a,Moore2011e}, general purpose
 dynamics and control packages~\cite{Moore2014,Moore2011}, and biomechanics
 packages~\cite{Dembia2011,Moore2011,Moore2011b,Moore2013b}.
@@ -183,14 +183,14 @@ The lab I envision will support developments in all types of bicycle related
 technologies. Collaborations with other TU Delft researchers will help us make
 advances in tire material properties, evaluation of electric bicycle
 transmissions, power augmentation control in pedal assist electric bicycles,
-ergonomics, performance improvements, etc.
+ergonomics, and performance improvements.
 
 As a professor focusing on bicycle dynamics and control, I will have several
 parallel and intertwined avenues of research that will support this broader
 social vision:
 %
 \begin{itemize}
-  \setlength\itemsep{0.2em}
+  \setlength\itemsep{0.1em}
   \item Data driven vehicle and biomechanical modeling of the bicycle-rider
     system
   \item Data driven manual control characterization and identification in
@@ -233,13 +233,13 @@ sensing treadmill for single track vehicle experimentation. Measuring the
 ground reaction forces and moments at each individual tire while performing
 maneuvers on a treadmill in a simulated environment will provide the next level
 of fidelity in understanding the vehicle and rider dynamics. This treadmill
-will be unique in the world and combined with simulation environments develop
+will be unique in the world and combined with simulation environments developed
 at TU Delft will offer the most realistic and capable platform for single track
 vehicle dynamics and control evaluation that will be attractive for many
 industry interests.
 
 Using both a robotic bicycle (currently on loan to TU Delft from UC Davis) and
-TU Delft's steer-by-wire bicycle I plan to explore how vehicle and controller
+TU Delft's steer-by-wire bicycle, I plan to explore how vehicle and controller
 design can effectively assist the rider's control, i.e. to take over when the
 human's deficiencies are present and to maximize the performance in safety
 critical maneuvering. These efforts will provide essential elements to having
@@ -250,13 +250,13 @@ I want my research to have direct impact on transportation mode share and
 safety for bicycling. I have preliminary work on using bicycle simulations for
 evaluating bicycle transportation infrastructure and creating standards for
 infrastructure. I call this ``physics-informed bicycle infrastructure
-evaluation an design''. There is also an opportunity to apply bicycle balance
+evaluation and design''. There is also an opportunity to apply bicycle balance
 and control theory to the design of cargo bicycles and other non-traditional
 bicycles.
 
-Finally, I have long had a fantasy of being part of a team that could claim the
-world human powered speed record. TU Delft has done so in the past and I intend
-to help them do so again. I would like to apply my work in trajectory
+Finally, I have long had a fantasy of being part of a team that could attain
+the world human powered speed record. TU Delft has done so in the past and I
+intend to help them do so again. I would like to apply my work in trajectory
 optimization in both the speed challenge and other timed races. The are
 additionally interesting opportunities to relieve the speed challenge rider
 from balance control tasks so they can focus fully on power generation.
