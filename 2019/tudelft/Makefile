@@ -10,7 +10,7 @@ pdf:
 	bibtex research-statement
 	pdflatex research-statement
 	pdflatex research-statement
-	pdftk cover-letter.pdf $(RESUMELOC)/resume.pdf research-statement.pdf teaching-statement.pdf cat output jkm-$(POSITION)-submission.pdf
+	pdftk cover-letter.pdf research-statement.pdf teaching-statement.pdf $(RESUMELOC)/resume.pdf cat output jkm-$(POSITION)-submission.pdf
 clean:
 	rm -rf *.ps *.log *.dvi *.aux *.*% *.lof *.lop *.lot *.toc *.idx *.ilg *.ind *.bbl *.blg *.cpt *.out
 	for target in $(TARGETS) ; do \
