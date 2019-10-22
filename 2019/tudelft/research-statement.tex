@@ -18,16 +18,16 @@ My primary research efforts have centered on understanding and improving human
 mobility by developing biomemetic controllers derived from data collected on
 human motion during unassisted activities (e.g. standing, walking) and
 activities in which the human is operating a vehicle (e.g. bicycling,
-skateboarding) or manipulating a tool (e.g. leg prostheses, sporting
-equipment). I am most interested in developing human control compatible machine
-designs and human-in-the-loop control systems that augment a person's
-experience for improved control, safe operation, and performance enhancement.
-The fundamental question that I am currently focused on is:
+skateboarding) or interacting with a machine or implement (e.g. leg prostheses,
+sporting equipment). I am most interested in developing human control
+compatible machine designs and human-in-the-loop control systems that augment a
+person's experience for improved control, safe operation, and performance
+enhancement. The fundamental question that I am currently focused on is:
 %
 \begin{quote}
  Can dynamically human-similar or human-coupled machines and their controllers
  be designed to move as well as or better than a human controller would move,
- if provided neurally-limited driving control inputs?
+ if provided neurally-limited control inputs?
 \end{quote}
 
 To answer this question my research currently has three primary foci:
@@ -101,8 +101,9 @@ tracking, I collected large quantities of walking data from both normal walking
 and longitudinally perturbed walking. I published the data as one of the first
 data papers in the field~\cite{Moore2015b} and demonstrated the effectiveness
 of the treadmill belt perturbation method. The data has been used in a variety
-of other control studies~\cite{Rohani2017,Thatte2018,Vimal2019}, as well as
-inspiring more data papers~\cite{Santos2016,Fukuchi2017,Fukuchi2018,Santuz2018}.
+of other control studies (e.g.~\cite{Rohani2017,Thatte2018,Vimal2019}), as well
+as inspiring more data
+papers~\cite{Santos2016,Fukuchi2017,Fukuchi2018,Santuz2018}.
 
 I used the perturbed walking data with a direct gait cycle gain scheduled
 feedback identification technique to identify possible closed loop
@@ -113,7 +114,7 @@ repeatable feedback patterns in the gait cycle across the walkers.
 Difficulties in utility of the prior work led to the development of an
 indirect identification technique based on parameter estimation with direct
 collocation to enable simulated validation of the
-controllers~\cite{Moore2014e,Moore2015}.  We demonstrated the computational
+controllers~\cite{Moore2014e,Moore2015}. We demonstrated the computational
 efficiency and ability to accurately identify control from kinematic data in
 simulated perturbed human standing. I further codified this technique in a
 general purpose software library that efficiently constructs the optimization
@@ -121,7 +122,7 @@ or identification problem from a high level problem
 description~\cite{Moore2014,Moore2018}.
 
 \section*{My Current Work in Human Motion and Control}
-
+%
 Since moving into a teaching focused position at UC Davis, I have mentored and
 led a number of sensing, instrumentation, software, and robotics projects with
 various local companies and undergraduate students that build on my prior
@@ -134,14 +135,14 @@ settings that I would like to develop for human walking. I also mentored a
 group that developed a robot to tie a shoe~\cite{Choi2018}, one of the more
 complex tasks human hands perform.
 
-I have further developed our theoretic single track vehicle handling quality
-metric proposed in \cite{Hess2012} and utilized it in discovering a variety of
-bicycle designs with theoretically optimal
-handling~\cite{Moore2016,Moore2019a}. To validate this theory, we have
-developed experimental methods with preliminary results indicating a likely
-relationship in the handling quality metric and rider subjective
-ratings~\cite{Kresie2017}. And most recently, we have begun constructing the
-optimal bicycles~\cite{Gilboa2019a} and evaluating them in terms of handling.
+I have further developed our single track vehicle handling quality metric
+proposed in \cite{Hess2012} and utilized it in discovering a variety of bicycle
+designs with theoretically optimal handling~\cite{Moore2016,Moore2019a}. To
+validate this theory, we have developed experimental methods with preliminary
+results indicating a likely relationship in the handling quality metric and
+rider subjective ratings~\cite{Kresie2017}. And most recently, we have begun
+constructing the optimal bicycles~\cite{Gilboa2019a} and evaluating them in
+terms of their handling.
 
 I have also led two projects in sports engineering in the past couple of years:
 1)~development of a web application for designing and analyzing ski jumps for
@@ -150,13 +151,13 @@ of real-time algorithms that improve estimation of competitive rowing performanc
 metrics from smartphone inertial measurement unit data~\cite{Cloud2019b}.
 
 All of my research relies heavily on open source computational data analysis
-and simulation tools, many  of which I have developed and published. Most
+and simulation tools, many of which I have developed and published. Most
 notably, I am a core developer of the computer aided algebra system,
 SymPy~\cite{SymPyDevelopmentTeam2006}, and the lead maintainer of the
 associated classical mechanics package~\cite{Gede2013}. Our 2017 paper
-\cite{Meurer2017} on the 11 year old software has over 250 citations, along
+\cite{Meurer2017} on the now 13 year old software has over 250 citations, along
 with thousands of users and hundreds of contributors making it one of the most
-popular packages in the Scientific Python ecosystem. Additionally, I have
+popular packages in the scientific Python ecosystem. Additionally, I have
 developed a suite of bicycle dynamics and control software
 packages~\cite{Moore2010b,Moore2011d,Moore2011a,Moore2011e}, general purpose
 dynamics and control packages~\cite{Moore2014,Moore2011}, and biomechanics
