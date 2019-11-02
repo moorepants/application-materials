@@ -1,4 +1,4 @@
-TARGETS = cover-letter research-statement teaching-statement diversity-statement
+TARGETS = cover-letter research-statement teaching-statement diversity-statement character-references
 RESUMELOC := "/home/moorepants/Documents/resume"
 POSITION = utaustin
 all: pdf
