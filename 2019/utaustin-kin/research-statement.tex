@@ -1,0 +1,221 @@
+\documentclass{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[colorlinks=true,citecolor=blue]{hyperref}
+\usepackage[T1]{fontenc}  % for the Polish accents in bibliography
+
+\title{Research Statement}
+\author{Jason K. Moore}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Introduction}
+%
+My primary research efforts have centered on understanding and improving human
+mobility by developing biomemetic controllers derived from data collected on
+human motion during unassisted activities (e.g. standing, walking) and
+activities in which the human is operating a vehicle (e.g. bicycling,
+skateboarding) or interacting with a machine or implement (e.g. leg prostheses,
+sporting equipment). I am most interested in developing human control
+compatible machine designs and human-in-the-loop control systems that augment a
+person's experience for improved control, safe operation, and performance
+enhancement. The fundamental question that I am currently focused on is:
+%
+\begin{quote}
+ Can dynamically human-similar or human-coupled machines and their controllers
+ be designed to move as well as or better than a human controller would move,
+ if provided neurally-limited control inputs?
+\end{quote}
+
+To answer this question, my current research has three primary foci:
+%
+\begin{enumerate}
+  \setlength\itemsep{0.1em}
+  \item Identifying how humans balance and locomote through data intensive
+    computational estimation, learning, and identification.
+  \item Applying biomemetic control algorithms and design enhancements derived
+    from identified controllers to assistive devices such as bicycles,
+    exoskeletons, powered prostheses, personal mobility vehicles, and humanoid
+    robots.
+  \item Developing next generation open and collaborative computational tools
+    to back efforts in the first two items.
+ \end{enumerate}
+
+My prior research combines knowledge and methods derived from multibody
+dynamics, sports biomechanics, human motion and control, transportation, and
+computational engineering. I consider myself an applied computational and
+experimental dynamics and control engineer; equally comfortable at the
+whiteboard, on the computer, and in the lab. Much of my work utilizes single
+track vehicles as a platform for studying multibody dynamics and manual
+control.
+
+\section*{My Past Work in Human Motion and Control}
+%
+Much of my prior research has focused on the problem of control identification
+in human balance where I have attempted to answer this question:
+
+\begin{quote}
+  Given the simultaneous measurements of the kinematics of human motion and
+  optionally human/environment interface and internal system forces, what is
+  the casual relationship from sensing to actuation in human motion?
+\end{quote}
+
+My graduate work focused on understanding the control mechanisms humans use
+while balancing on a bicycle. Because the bicycle is a dynamically complex
+vehicle~\cite{Astrom2005,Meijaard2007,Moore2007,Moore2008} that acts as an
+intermediary between the human and the environment, it is an ideal vehicle
+platform for understanding balance and manual control.
+
+My early graduate work focused on applying principal component analysis to a
+large collection of motion capture data during steady state bicycling on a
+treadmill, which identified dominant motion patterns and exposed subtle leg
+motions used for balance at low speeds~\cite{Moore2009a,Moore2011c}. We further
+confirmed this low speed behavior with video analysis of more natural bicycling
+behavior around a city and on a treadmill~\cite{Kooijman2009}. This work has
+since been widely cited in the motion studies literature.
+
+Following those initial experiments, I designed and fabricated a uniquely
+instrumented bicycle, capable of accurately measuring the full dynamic state of
+the rider-vehicle system~\cite{Moore2012,Moore2013}, including the most
+accurate steer torque measurements to date. With this instrument, I collected
+copious amounts of data during responses to lateral perturbations in path
+tracking tasks. Then, starting with our theorectic manual control
+model~\cite{Hess2012}, I applied data driven parameter estimation techniques to
+arrive at a set of controllers that explained the rider's dominant linear
+response behavior to the perturbations~\cite{Moore2012}. I showed that this
+control model was able to mimic human behavior for a broader set of control
+tasks and could be used to estimate the handling qualities of different bicycle
+designs. This work also supported other theoretic controller structures for
+bicycling~\cite{Schwab2012a,Schwab2012,Schwab2013} and was also applied to
+aircraft control identification~\cite{Hess2013}.
+
+The work on bicycle control identification lead into postdoctoral work focused
+on developing controllers for lower extremity exoskeletons designed to assist
+paraplegic individuals in walking. We partnered with Parker Hannifin Corp. and
+targeted their Indego Exoskeleton. My research was led by the goal to provide
+natural gait and unassisted balance for these devices, something that is still
+lacking today. Utilizing an actuated treadmill coupled with full body kinematic
+tracking, I collected large quantities of walking data from both normal walking
+and longitudinally perturbed walking. I published the data as one of the first
+data papers in the field~\cite{Moore2015b} and demonstrated the effectiveness
+of the treadmill belt perturbation method. The data has been used in a variety
+of other control studies (e.g.~\cite{Rohani2017,Thatte2018,Vimal2019}), as well
+as inspiring more data
+papers~\cite{Santos2016,Fukuchi2017,Fukuchi2018,Santuz2018}.
+
+I used the perturbed walking data with a direct gait cycle gain scheduled
+feedback identification technique to identify possible closed loop
+controllers~\cite{Moore2013c,Moore2014a,Moore2014c}. The technique proved to be
+very computationally efficient and the identified controllers exhibited
+repeatable feedback patterns in the gait cycle across the walkers.
+
+Difficulties in utility of the prior work led to the development of an indirect
+identification technique based on parameter estimation with direct collocation
+to enable simulated validation of the controllers~\cite{Moore2014e,Moore2015}.
+We demonstrated the computational efficiency and ability to accurately identify
+control from kinematic data in simulated perturbed human standing. I further
+codified this technique in a general purpose software library that efficiently
+constructs the optimization or identification problem from a high level problem
+description~\cite{Moore2014,Moore2018}.
+
+\section*{My Current Work in Human Motion and Control}
+%
+Since moving into a teaching focused position at UC Davis, I have mentored and
+led a number of sensing, instrumentation, software, and robotics projects with
+various local companies and undergraduate students that build on my prior
+research. We have developed an adaptive mouth-based control for an electric
+tricycle which is quadriplegic friendly with Outrider USA and Disability
+Reports and developed a powered cable driven hand prostheses for partial upper
+body paralysis with Ekso Bionics. With SRE Engineering we developed a wireless
+boot for measuring ground reaction forces for horse trotting in non-laboratory
+settings that I would like to develop for human walking. I also mentored a
+group that developed a robot to tie a shoe~\cite{Choi2018}, one of the more
+complex tasks human hands perform.
+
+I have further developed our single track vehicle handling quality metric
+proposed in \cite{Hess2012} and utilized it in discovering a variety of bicycle
+designs with theoretically optimal handling~\cite{Moore2016,Moore2019a}. To
+validate this theory, we have developed experimental methods with preliminary
+results indicating a likely relationship in the handling quality metric and
+rider subjective ratings~\cite{Kresie2017}. And most recently, we have begun
+constructing the optimal bicycles~\cite{Gilboa2019a} and evaluating them in
+terms of their handling.
+
+I have also led two projects in sports engineering in the past couple of years:
+1)~development of a web application for designing and analyzing ski jumps for
+improving jumper safety~\cite{Moore2018a,Cloud2019a} and 2)~the implementation
+of real-time algorithms that improve estimation of competitive rowing
+performance metrics from smartphone inertial measurement unit
+data~\cite{Cloud2019b}.
+
+All of my research relies heavily on open source computational data analysis
+and simulation tools, many of which I have developed and published. Most
+notably, I am a core developer of the computer aided algebra system,
+SymPy~\cite{SymPyDevelopmentTeam2006}, and the lead maintainer of the
+associated classical mechanics package~\cite{Gede2013}. Our 2017 paper
+\cite{Meurer2017} on the now 13 year old software has over 250 citations, along
+with thousands of users and hundreds of contributors making it one of the most
+popular packages in the scientific Python ecosystem. Additionally, I have
+developed a suite of bicycle dynamics and control software
+packages~\cite{Moore2010b,Moore2011d,Moore2011a,Moore2011e}, general purpose
+dynamics and control packages~\cite{Moore2014,Moore2011}, and biomechanics
+packages~\cite{Dembia2011,Moore2011,Moore2011b,Moore2013b}.
+
+More about my research projects can be viewed on my lab website:
+\url{http://mechmotum.github.io}.
+
+\section*{My Research Plans%
+  \label{my-research-plans}%
+}
+
+As a new professor I will play an integral role in your department's vision for
+rehabilitation and movement science. I plan to lead a laboratory that will
+provide computational and experimental biomechanics expertise alongside
+humanoid robot and assistive device design. I hope to contribute to the
+department with a modernized biomechatronics research and teaching focus.
+
+With more than a decade in Northern California, I have a wide network of
+partners to bring this vision to life that span orthotics companies to Bay Area
+biomechanic and robotics companies. My network also spans beyond the region to
+the state, national, and international collaborations. I plan to grow my
+collaborations with regional companies and labs (e.g. Toyota Research
+Institute, Motion Analysis, Ekso Bionics, Inscitech, Open Robotics, Stanford's
+Neuromuscular Biomechanics Lab) along with my expanded collaborators (e.g.
+Cleveland State's Human Motion and Control Laboratory, Cornell's Biorobotics
+Lab, TU Delft's Biomechanics Department, and Meijo University). I also look
+forward to developing more cross disciplinary research partners, many which
+have begun with the 90+ capstone design projects I have mentored.
+
+I will continue to participate in a number of academic communities that I am
+currently involved with. The lab will target conferences such as Dynamic
+Walking and ROSCon along with the American and International Societies of
+Biomechanics (including the ISB Technical Simulation group). On the software
+side, we will continue to present at SciPy, PyData, and PyCon for open source
+computation.
+
+The lab I am planning will be able to 1) collect motion data from humans and
+robots in mobility related activities both in the lab and in natural
+environments, 2) apply cutting edge learning, estimation, and identification
+methods to characterize human control, 3) build and test controllers in
+humanoid robots and assistive devices, and 4) contribute to and develop the
+next generation of open source biomechatronic related software.
+
+My initial project plans are multifold and will build from my prior work. I
+will start recruiting students for 1) applying parameter identification using
+direct collocation to perturbed walking data to discover a gain scheduled
+closed loop control, 2) development of a scaled balancing robot that simulates
+perturbed human balancing, 3) accelerating lower body neuromuscular forward
+dynamics simulations through implicit dynamics and optimized code generation
+and common sub-expression evaluation across CPU/GPU cores, and 4) development
+of a low-fidelity lower limb exoskeleton for controller testing.
+
+Given the opportunity, I have the skills, network, and vision to succeed as a
+professor of kinesiology \& health.
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
