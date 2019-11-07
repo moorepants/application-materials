@@ -13,7 +13,8 @@ pdf:
 	bibtex paper-intro
 	pdflatex paper-intro
 	pdflatex paper-intro
-	pdftk cover-letter.pdf $(RESUMELOC)/resume.pdf research-statement.pdf teaching-statement.pdf syllabi.pdf paper-intro.pdf moore2011.pdf moore2015.pdf cloud2019.pdf cat output "J Moore - 1904156.pdf"
+	pdftk cover-letter.pdf $(RESUMELOC)/resume.pdf research-statement.pdf teaching-statement.pdf syllabi.pdf cat output "J Moore - 1904156.pdf"
+	pdftk paper-intro.pdf moore2011.pdf moore2015.pdf cloud2019.pdf cat output "J Moore Papers - 1904156.pdf"
 clean:
 	rm -rf *.ps *.log *.dvi *.aux *.*% *.lof *.lop *.lot *.toc *.idx *.ilg *.ind *.bbl *.blg *.cpt *.out
 	for target in $(TARGETS) ; do \
