@@ -11,6 +11,11 @@ before_install:
   - pip install doctr
   - git clone https://github.com/moorepants/resume.git
 script:
+  # 2019 tudelft
+  - make -C resume
+  - make -C 2019/tudelft RESUMELOC="../../resume"
+  - mkdir -p output/2019/generic
+  - cp 2019/generic/*.pdf output/2019/generic/
   # 2018 generic
   - make -C resume
   - make -C 2018/generic RESUMELOC="../../resume"
